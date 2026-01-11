@@ -18573,6 +18573,26 @@
 		)
 		(uuid "d5c9fc04-37de-431d-aa3b-8359a8c68f44")
 	)
+	(text "(J11)"
+		(exclude_from_sim no)
+		(at 184.15 164.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd3a8e76-d519-4d53-a8e0-4c647d9076ef")
+	)
+	(text "(J12)"
+		(exclude_from_sim no)
+		(at 272.796 166.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f9ca77e1-fa2e-4d4b-9b1f-d7dde4b51ae0")
+	)
 	(global_label "SLOTA7P"
 		(shape bidirectional)
 		(at 698.5 81.28 0)
@@ -20070,6 +20090,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 205 205 205 1)
 			)
 			(justify right)
 		)
@@ -22770,6 +22791,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 205 205 205 1)
 			)
 			(justify right)
 		)

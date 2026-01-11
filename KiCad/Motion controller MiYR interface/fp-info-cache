@@ -1,4 +1,4 @@
-23152587486066479
+23152587486736817
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94770,8 +94770,8 @@ footprints
 terminal block RND 205-00001, 2 pins, pitch 5mm, size 10x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00001_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND
 THT terminal block RND 205-00001 pitch 5mm size 10x9mm^2 drill 1.3mm pad 2.5mm
 0
-2
-2
+4
+4
 footprints
 64pin card
 PCIexpress Bus Edge Connector x1 http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=70
