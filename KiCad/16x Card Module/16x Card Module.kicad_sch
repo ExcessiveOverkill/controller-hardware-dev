@@ -1,0 +1,369 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ab8d9c57-0225-4eba-8e69-68104344e230")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 100.33 88.9) (xy 166.37 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f47832e-60ac-4972-8f26-6bd967a1e79a")
+	)
+	(wire
+		(pts
+			(xy 100.33 97.79) (xy 166.37 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a760cdb-be5f-4544-9e17-6a2bdca9f764")
+	)
+	(wire
+		(pts
+			(xy 100.33 91.44) (xy 166.37 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aba6a12-1b8c-4356-9df7-75eb3ac3c7af")
+	)
+	(wire
+		(pts
+			(xy 100.33 95.25) (xy 166.37 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83c04aed-0f47-4490-9cfc-d7930f16651d")
+	)
+	(sheet
+		(at 166.37 33.02)
+		(size 29.21 73.66)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d560378a-ab8a-456e-8aa6-8138f3a40595")
+		(property "Sheetname" "MCU"
+			(at 166.37 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 166.37 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MODULE_TX" output
+			(at 166.37 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "41da9461-59d0-4267-a5fa-d3f3b7df712e")
+		)
+		(pin "MODULE_RX" input
+			(at 166.37 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "47ff970a-2539-48fc-989e-432be55eb5b5")
+		)
+		(pin "CONTROLLER_RX" output
+			(at 166.37 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "906b464b-0fa3-47ea-8019-634959aee0e4")
+		)
+		(pin "CONTROLLER_TX" input
+			(at 166.37 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4a3790f9-6b6d-4288-95ed-d731339893be")
+		)
+		(instances
+			(project "16x Card Module"
+				(path "/ab8d9c57-0225-4eba-8e69-68104344e230"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 30.48)
+		(size 29.21 72.39)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e9bc8300-841d-4524-a11f-2bfba2a15d2a")
+		(property "Sheetname" "FPGA Connector"
+			(at 71.12 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA_Connector.kicad_sch"
+			(at 71.12 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MODULE_RX" output
+			(at 100.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aa377361-8bff-4b89-b6fa-daa325a40112")
+		)
+		(pin "MODULE_TX" input
+			(at 100.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5b83483a-4842-48a5-b4de-a16d30f409b3")
+		)
+		(pin "IO_2" tri_state
+			(at 100.33 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "35096c99-934d-4e5d-9c14-88bbe457c413")
+		)
+		(pin "IO_1" tri_state
+			(at 100.33 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6fb2783a-9012-447f-b5cb-964142a393ad")
+		)
+		(pin "IO_3" tri_state
+			(at 100.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8cf192f9-da1a-4554-94f7-4b4863a1866c")
+		)
+		(pin "IO_0" tri_state
+			(at 100.33 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4454a6e6-3f41-4ecb-aa7e-f77cd15c2afa")
+		)
+		(pin "IO_4" tri_state
+			(at 100.33 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b38de688-4002-46a6-b602-dfc178bbf7a5")
+		)
+		(pin "IO_5" tri_state
+			(at 100.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c2549a7d-7dfe-486f-83ac-6c427e49a73a")
+		)
+		(pin "IO_8" tri_state
+			(at 100.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "959c5e3c-9f89-472b-991f-4b9328ccd9bb")
+		)
+		(pin "IO_7" tri_state
+			(at 100.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0bd89731-a2e0-4fd5-a21b-89189d3da90c")
+		)
+		(pin "IO_6" tri_state
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "23a3a143-7f0d-46b7-bec8-0f645cb67ed1")
+		)
+		(pin "IO_9" tri_state
+			(at 100.33 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "feb3f6d3-4f94-404d-8d00-21d78bfae6e8")
+		)
+		(pin "IO_12" tri_state
+			(at 100.33 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "70eb7e5b-20db-4b17-a972-53e127dfb1f5")
+		)
+		(pin "IO_14" tri_state
+			(at 100.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "74f8f843-3736-484f-8921-9e045cddcabe")
+		)
+		(pin "IO_10" tri_state
+			(at 100.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fee47026-7316-4cba-85ad-02683c61b239")
+		)
+		(pin "IO_13" tri_state
+			(at 100.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a44c6135-31db-471a-936b-e0fb8d8b1c33")
+		)
+		(pin "IO_11" tri_state
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d6bd59a4-2530-44dc-a205-c608936fb200")
+		)
+		(pin "IO_15" tri_state
+			(at 100.33 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a356e1c6-b1b0-4cbc-be63-a5e436888140")
+		)
+		(pin "CONTROLLER_TX" output
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2117384a-7a01-4f33-a5ec-a52cbbcbee1e")
+		)
+		(pin "CONTROLLER_RX" input
+			(at 100.33 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b3c210b5-a069-4e2e-8fe5-f64c0d30019c")
+		)
+		(instances
+			(project "16x Card Module"
+				(path "/ab8d9c57-0225-4eba-8e69-68104344e230"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
