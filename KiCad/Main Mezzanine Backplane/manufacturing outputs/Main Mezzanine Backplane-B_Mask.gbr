@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.0.1*%
-%TF.CreationDate,2026-01-15T10:00:18-05:00*%
+%TF.CreationDate,2026-01-16T21:35:52-05:00*%
 %TF.ProjectId,Main Mezzanine Backplane,4d61696e-204d-4657-9a7a-616e696e6520,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Bot*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.1) date 2026-01-15 10:00:18*
+G04 Created by KiCad (PCBNEW 8.0.1) date 2026-01-16 21:35:52*
 %MOMM*%
 %LPD*%
 G01*
@@ -34,7 +34,7 @@ G04 Aperture macros list end*
 %ADD12R,0.600000X0.420000*%
 %ADD13O,0.600000X0.420000*%
 %ADD14C,0.550000*%
-%ADD15RoundRect,0.085000X-0.835000X0.085000X-0.835000X-0.085000X0.835000X-0.085000X0.835000X0.085000X0*%
+%ADD15RoundRect,0.070000X-0.830000X0.070000X-0.830000X-0.070000X0.830000X-0.070000X0.830000X0.070000X0*%
 G04 APERTURE END LIST*
 D10*
 %TO.C,H1*%

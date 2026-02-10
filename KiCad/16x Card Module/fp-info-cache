@@ -1,4 +1,4 @@
-23163197451089586
+23164966066628282
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94849,6 +94849,13 @@ L77HDB44SD1CH4F
 0
 50
 50
+footprints
+LQFP-64_10x10mm_P0.5mm_smaller_pads
+LQFP, 64 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+64
+64
 footprints
 PCI_64_SMD_CONNECTOR
 

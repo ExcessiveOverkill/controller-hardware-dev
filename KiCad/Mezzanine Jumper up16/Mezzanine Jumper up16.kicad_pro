@@ -478,7 +478,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "manufacturing outputs/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Mezzanine Jumper up16.step",

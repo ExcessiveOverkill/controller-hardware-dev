@@ -1,4 +1,4 @@
-23161428860504661
+23164966324659026
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94773,6 +94773,13 @@ THT terminal block RND 205-00001 pitch 5mm size 10x9mm^2 drill 1.3mm pad 2.5mm
 4
 4
 footprints
+16x_modular_card
+16x card
+
+0
+50
+50
+footprints
 64pin card
 PCIexpress Bus Edge Connector x1 http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=70
 PCIe
@@ -94842,6 +94849,13 @@ L77HDB44SD1CH4F
 0
 50
 50
+footprints
+LQFP-64_10x10mm_P0.5mm_smaller_pads
+LQFP, 64 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+64
+64
 footprints
 PCI_64_SMD_CONNECTOR
 

@@ -3284,6 +3284,12 @@
 		(uuid "3a80fc19-b0de-4d02-9e56-89f6521d9537")
 	)
 	(junction
+		(at 53.34 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e9456c5-7e84-43d1-acb0-2ac14cefd2d9")
+	)
+	(junction
 		(at 41.91 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3306,12 +3312,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41e687e9-eaaf-48ca-b2aa-377ed8c1a90f")
-	)
-	(junction
-		(at 53.34 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a0995bc-0d44-405f-ab3f-b9e53f3d5c86")
 	)
 	(junction
 		(at 46.99 26.67)
@@ -4580,6 +4580,7 @@
 	)
 	(label "TX_PASSTHROUGH_ENABLE"
 		(at 368.3 87.63 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7282,7 +7283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
+		(property "Footprint" "footprints:LQFP-64_10x10mm_P0.5mm_smaller_pads"
 			(at 156.21 135.89 0)
 			(effects
 				(font
@@ -8076,125 +8077,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Oscillator:SG-8002CE")
-		(at 53.34 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9623a97-aa99-4797-b9cb-85f9ac7a8b5a")
-		(property "Reference" "X1"
-			(at 67.31 170.2114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "16Mhz"
-			(at 67.31 172.7514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm"
-			(at 71.12 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC"
-			(at 50.8 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CMOS Clock Oscillator"
-			(at 53.34 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C390318"
-			(at 53.34 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "EPSON"
-			(at 53.34 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part number" "SG-8002CE 16.000000MHz PHM"
-			(at 53.34 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "cost" "1.41"
-			(at 53.34 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Generic Allowed?" "no"
-			(at 53.34 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60d5a625-e0af-4802-83f9-74c269b40f59")
-		)
-		(pin "2"
-			(uuid "1493be19-1745-4e46-9ab7-dbce4cc2a2e3")
-		)
-		(pin "4"
-			(uuid "aaa2b7f5-0822-4de1-ae7e-29988c608747")
-		)
-		(pin "3"
-			(uuid "775797ff-dcef-4f0e-8718-4f79b3dab775")
-		)
-		(instances
-			(project "16x Card Module"
-				(path "/ab8d9c57-0225-4eba-8e69-68104344e230/d560378a-ab8a-456e-8aa6-8138f3a40595"
-					(reference "X1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 135.89 34.29 180)
 		(unit 1)
@@ -8667,6 +8549,124 @@
 			(project "16x Card Module"
 				(path "/ab8d9c57-0225-4eba-8e69-68104344e230/d560378a-ab8a-456e-8aa6-8138f3a40595"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Oscillator:SG-8002CE")
+		(at 53.34 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc8a0f6f-87de-4406-9bfb-7096180b3722")
+		(property "Reference" "X1"
+			(at 64.008 168.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "25Mhz"
+			(at 64.008 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm"
+			(at 71.12 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CMOS Clock Oscillator"
+			(at 53.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C5179998"
+			(at 53.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SCTF"
+			(at 53.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "SX3V25.000B20100F30TNN"
+			(at 53.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "cost" "1.49"
+			(at 53.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Generic Allowed?" "no"
+			(at 53.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "846e68c2-f379-492e-a683-3ea04e877a43")
+		)
+		(pin "2"
+			(uuid "0d33723b-be83-4761-879e-ed457e33517c")
+		)
+		(pin "4"
+			(uuid "6c5ae9c6-bf06-4e0d-99e6-bd4944a9b23a")
+		)
+		(pin "3"
+			(uuid "b3abbbbd-545f-4c6f-be9b-eae33770c80b")
+		)
+		(instances
+			(project "16x Card Module"
+				(path "/ab8d9c57-0225-4eba-8e69-68104344e230/d560378a-ab8a-456e-8aa6-8138f3a40595"
+					(reference "X1")
 					(unit 1)
 				)
 			)
