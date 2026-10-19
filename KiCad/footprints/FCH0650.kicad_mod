@@ -1,0 +1,348 @@
+(footprint "FCH0650"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, APV, APH0650, 6.8x6.6x4.8mm, (http://en.apvind.com/public/upload/20240408/996aafa961154ed753e4983e7eb80fa7.pdf), generated with kicad-footprint-generator gen_inductor.py")
+	(tags "molded power shielded")
+	(property "Reference" "L5"
+		(at 0 -4.425 0)
+		(layer "F.SilkS")
+		(uuid "0a3badc1-6879-412c-99e7-56981d511782")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "15uH"
+		(at 0 4.425 0)
+		(layer "F.Fab")
+		(uuid "56b43f4b-cbf6-41a4-b3f6-cead4aa099ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "023027ff-977e-4382-a9fd-829c1cc81875")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Inductor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "293b66cb-f302-4fe4-8633-5d1f0ed05cbd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "cost" "0.05"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ff5df58-87c2-4f56-b579-6ed0f72566dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Generic Allowed?" "yes"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "baea9f54-d92c-48eb-9053-bafb1400c8c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC#" "C2929432"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc232a2e-d490-4f6e-a0a1-4d892100270b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "SHOU HAN"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62947a5c-2b20-42bc-9852-c3feb3ffd878")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part number" "CY54-15UH"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68bc62e6-0448-4efb-a3f7-c611ada133d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.6 -3.6)
+		(end 3.6 -3.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b0ef429-4c11-4110-a801-411ba5f63d83")
+	)
+	(fp_line
+		(start -3.6 -2.05)
+		(end -3.6 -3.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "049ef5f9-9fb8-4c34-b00b-1681beb1fe52")
+	)
+	(fp_line
+		(start -3.6 2.05)
+		(end -3.6 3.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c80961d5-1a34-4124-a370-771ce71127d6")
+	)
+	(fp_line
+		(start -3.6 3.6)
+		(end 3.6 3.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e800733-31ce-4e3e-ba2e-32ac61c99348")
+	)
+	(fp_line
+		(start 3.6 -3.6)
+		(end 3.6 -2.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b41b2697-9f71-45db-a14b-65a17e4e0439")
+	)
+	(fp_line
+		(start 3.6 3.6)
+		(end 3.6 2.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94c3fef6-0ad4-47e6-bcb2-54bc9c274dc2")
+	)
+	(fp_line
+		(start -4.45 -2)
+		(end -4 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0eb36c6e-23e3-439e-a81e-3f97afab1275")
+	)
+	(fp_line
+		(start -4.45 2)
+		(end -4.45 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d99b70f8-dbbf-4433-b8b1-5688cf07c87f")
+	)
+	(fp_line
+		(start -4.45 2)
+		(end -4 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ed598902-a675-47ac-abbb-87b60e14b05a")
+	)
+	(fp_line
+		(start -4 -3.7)
+		(end 4.05 -3.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ed2a619-2425-44ac-a5c2-3bb04b33b37b")
+	)
+	(fp_line
+		(start -4 -2)
+		(end -4 -3.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bee2e644-73e5-4ad6-bc70-a98b973a6341")
+	)
+	(fp_line
+		(start -4 2)
+		(end -4 3.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dba42a3b-d430-4c4c-b12a-90d1c69d88a9")
+	)
+	(fp_line
+		(start -4 3.7)
+		(end 4.05 3.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f4d21fe9-e7e9-40a1-9227-a3c0933484b0")
+	)
+	(fp_line
+		(start 4.05 -3.7)
+		(end 4.05 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "59114c14-dff4-4d80-8ffa-682fe0d3d2f9")
+	)
+	(fp_line
+		(start 4.05 -2)
+		(end 4.45 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ac4a091b-043c-4a71-a07c-b0a537d8e620")
+	)
+	(fp_line
+		(start 4.05 2)
+		(end 4.45 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9bef9c2c-0c41-4798-8872-b9b7dcee8c75")
+	)
+	(fp_line
+		(start 4.05 3.7)
+		(end 4.05 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d962ffbb-9d2f-4404-9aee-80aaa5138863")
+	)
+	(fp_line
+		(start 4.45 -2)
+		(end 4.45 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3b2a1ac5-4e8d-4ec7-8216-03ccbf48272a")
+	)
+	(fp_rect
+		(start -3.5 -3.5)
+		(end 3.5 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1d87f03a-25ad-43aa-a6b0-26615b0e156a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8f0134b8-700d-40be-8a09-3d102b6e5422")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.25 0)
+		(size 2 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.106383)
+		(uuid "18744860-6e24-4f81-8bab-db4faa6ef426")
+	)
+	(pad "2" smd roundrect
+		(at 3.25 0)
+		(size 2 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.106383)
+		(uuid "a853f156-11f7-4cfc-bb82-f1700924e2d0")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_APV_APH0650.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
