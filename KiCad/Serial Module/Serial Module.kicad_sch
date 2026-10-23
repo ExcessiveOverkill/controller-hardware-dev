@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "ab8d9c57-0225-4eba-8e69-68104344e230")
 	(paper "A4")
 	(lib_symbols)
@@ -408,11 +408,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "18a2df33-799a-4730-923c-d956630ad4c9")
 		(property "Sheetname" "Transceivers"
 			(at 114.3 34.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -422,6 +424,8 @@
 		)
 		(property "Sheetfile" "transceivers.kicad_sch"
 			(at 114.3 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -800,11 +804,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d560378a-ab8a-456e-8aa6-8138f3a40595")
 		(property "Sheetname" "MCU"
 			(at 170.18 34.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -814,6 +820,8 @@
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
 			(at 170.18 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1072,11 +1080,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "e9bc8300-841d-4524-a11f-2bfba2a15d2a")
 		(property "Sheetname" "FPGA Connector"
 			(at 74.93 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,6 +1096,8 @@
 		)
 		(property "Sheetfile" "FPGA_Connector.kicad_sch"
 			(at 74.93 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
