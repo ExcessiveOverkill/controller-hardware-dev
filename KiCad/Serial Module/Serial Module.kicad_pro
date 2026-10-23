@@ -689,7 +689,7 @@
       "Transceiver pair"
     ],
     [
-      "7d27fcfd-e834-4f2c-b9e8-db8c313fd48d",
+      "950d1e8c-1662-40e2-bbb3-67cb0cec2543",
       "Transceiver pair1"
     ],
     [
@@ -697,27 +697,27 @@
       "Port Power"
     ],
     [
-      "ddbf53ee-7ab1-47d5-a8bf-0630a3b2d585",
+      "70668120-4ba4-4ac8-89a1-a4e30cf2d07f",
       "Transceiver pair2"
     ],
     [
-      "3f1b720e-910a-4263-8782-ca664b2f1bf9",
+      "83ff2065-a3c0-4bb2-8d49-854250385b56",
       "Transceiver pair3"
     ],
     [
-      "61b328b5-96cb-4753-aa44-dc78fe6ab70f",
+      "72831ab1-aa5d-4723-bd2c-58b29ee75226",
       "Transceiver pair4"
     ],
     [
-      "812d7bbf-e81a-46fe-8a44-97bb364346ab",
+      "c939c694-9ef6-4009-9acf-ad9123a6ad11",
       "Transceiver pair5"
     ],
     [
-      "1cc90286-2b0e-4b7b-aec1-54fc471238c7",
+      "2519c98a-fe16-4bc7-8817-ec4c370d6575",
       "Transceiver pair6"
     ],
     [
-      "9e13f3d1-9eec-4a9a-8ddd-469c1a123546",
+      "e5b1d346-544e-4173-829d-4597c68c91d8",
       "Transceiver pair7"
     ],
     [
@@ -735,6 +735,14 @@
     [
       "0bce6c50-7f09-4411-85be-475778d38cf0",
       "Port Vsense Mux3"
+    ],
+    [
+      "3bded2bf-0e84-4a30-98e6-b436a91467ee",
+      "Current Limit Mux"
+    ],
+    [
+      "26429f02-bf09-4699-a1a1-969fa4b4373c",
+      "Current Limit Mux1"
     ]
   ],
   "text_variables": {}

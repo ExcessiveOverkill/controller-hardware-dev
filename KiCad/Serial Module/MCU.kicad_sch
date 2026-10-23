@@ -3751,6 +3751,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 120.65) (xy 189.23 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41623e7f-20f0-477c-ad2d-b09e4ceb1746")
+	)
+	(wire
+		(pts
 			(xy 342.9 106.68) (xy 342.9 100.33)
 		)
 		(stroke
@@ -4028,6 +4038,16 @@
 			(type default)
 		)
 		(uuid "83e3f49e-8cde-48d1-b7e7-dc8675219bd8")
+	)
+	(wire
+		(pts
+			(xy 196.85 123.19) (xy 189.23 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858dff15-140b-4584-a4d9-6d013151b53c")
 	)
 	(wire
 		(pts
@@ -4421,6 +4441,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 115.57) (xy 189.23 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e45250c7-4efd-4efd-ae3b-786b6a1df017")
+	)
+	(wire
+		(pts
 			(xy 135.89 45.72) (xy 123.19 45.72)
 		)
 		(stroke
@@ -4468,6 +4498,16 @@
 			(type default)
 		)
 		(uuid "ed11077f-f9ae-438d-a29e-b22ed8627677")
+	)
+	(wire
+		(pts
+			(xy 196.85 118.11) (xy 189.23 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef280f5f-776b-43b0-80cf-a6b9f1b16304")
 	)
 	(wire
 		(pts
@@ -4609,6 +4649,26 @@
 			)
 		)
 	)
+	(label "FAULT_N_HV_BANK_2"
+		(at 196.85 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e7047a2-dbd9-4228-84e3-d9336a7f23f6")
+		(property "STM32 Perif" "GPIO INPUT"
+			(at 219.964 122.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(label "RX"
 		(at 196.85 113.03 0)
 		(effects
@@ -4729,6 +4789,26 @@
 			)
 		)
 	)
+	(label "FAULT_N_LV_BANK_1"
+		(at 196.85 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b190112-42a9-427b-8a51-efe0617f77d5")
+		(property "STM32 Perif" "GPIO INPUT"
+			(at 219.964 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(label "PORT_3{slash}4_VSENSE"
 		(at 191.77 180.34 0)
 		(effects
@@ -4758,6 +4838,46 @@
 			(justify left bottom)
 		)
 		(uuid "2cd1201b-3a70-407f-b827-a078b2603c5b")
+	)
+	(label "FAULT_N_HV_BANK_1"
+		(at 191.77 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e7ec1c3-896b-401f-a7c9-6a7d68e4498f")
+		(property "STM32 Perif" "GPIO INPUT"
+			(at 214.884 235.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "FAULT_N_LV_BANK_2"
+		(at 191.77 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35a47dc7-bee3-4670-bcb4-20abcb0c741d")
+		(property "STM32 Perif" "GPIO INPUT"
+			(at 214.884 232.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "CONFIG_CLR_N"
 		(at 146.05 97.79 180)
@@ -5210,6 +5330,26 @@
 			)
 		)
 	)
+	(label "FAULT_N_LV_BANK_1"
+		(at 191.77 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4de4719-5311-4457-a8b8-293502147aed")
+		(property "STM32 Perif" "GPIO INPUT"
+			(at 214.884 230.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(label "SWO"
 		(at 196.85 102.87 0)
 		(effects
@@ -5491,6 +5631,26 @@
 			)
 		)
 	)
+	(label "FAULT_N_HV_BANK_1"
+		(at 196.85 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e71c2c49-1e88-4186-8a76-f4558ef3200e")
+		(property "STM32 Perif" "GPIO INPUT"
+			(at 219.964 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(label "CONFIG_CLK"
 		(at 140.97 215.9 180)
 		(effects
@@ -5551,6 +5711,26 @@
 		)
 		(uuid "f5b98fff-5c40-4924-9ad8-26330015461b")
 	)
+	(label "FAULT_N_LV_BANK_2"
+		(at 196.85 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5db4cac-2d80-4a98-af1e-a214fbcafb28")
+		(property "STM32 Perif" "GPIO INPUT"
+			(at 219.964 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(label "NRESET"
 		(at 373.38 30.48 0)
 		(effects
@@ -5560,6 +5740,26 @@
 			(justify left bottom)
 		)
 		(uuid "feb8c24e-79e2-4246-906c-173b79e08161")
+	)
+	(label "FAULT_N_HV_BANK_2"
+		(at 191.77 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff3d74a8-4d57-4c53-a116-35fe7124238e")
+		(property "STM32 Perif" "GPIO INPUT"
+			(at 214.884 237.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "CONFIG_OE_N"
 		(shape input)
@@ -5582,6 +5782,29 @@
 			(justify left)
 		)
 		(uuid "2980c475-a19c-4ee9-b38c-0abb5708e799")
+	)
+	(hierarchical_label "FAULT_N_HV_BANK_2"
+		(shape input)
+		(at 191.77 238.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c8b7b50-1c80-4c4c-9396-fd955e3291f3")
+		(property "STM32 Perif" "GPIO INPUT"
+			(at 214.884 237.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "CONTROLLER_RX"
 		(shape output)
@@ -5709,6 +5932,29 @@
 			)
 		)
 	)
+	(hierarchical_label "FAULT_N_LV_BANK_2"
+		(shape input)
+		(at 191.77 233.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5561448a-2bc6-47fc-951c-fecdb01c329a")
+		(property "STM32 Perif" "GPIO INPUT"
+			(at 214.884 232.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "LV_BANK_2_CURRENT_SENSE"
 		(shape input)
 		(at 140.97 203.2 0)
@@ -5814,6 +6060,29 @@
 		(uuid "af430e7f-3c47-47f1-bcf9-8b93b902ecef")
 		(property "STM32 Perif" "GPIO_OUTPUT"
 			(at 140.97 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "FAULT_N_LV_BANK_1"
+		(shape input)
+		(at 191.77 231.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2ac1d35-b99f-4e12-83f0-c3b9788efec2")
+		(property "STM32 Perif" "GPIO INPUT"
+			(at 214.884 230.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5957,6 +6226,29 @@
 					(italic yes)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "FAULT_N_HV_BANK_1"
+		(shape input)
+		(at 191.77 236.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f468ec13-36d4-4ce6-a5a1-4957f068abb0")
+		(property "STM32 Perif" "GPIO INPUT"
+			(at 214.884 235.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
