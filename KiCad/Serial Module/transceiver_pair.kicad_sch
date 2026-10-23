@@ -7376,7 +7376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 259.08 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7387,7 +7387,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf"
 			(at 259.08 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7409,7 +7409,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7813"
+		(property "LCSC#" "C282343"
 			(at 259.08 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7420,7 +7420,7 @@
 				)
 			)
 		)
-		(property "Part number" "SN74LVC125APWR"
+		(property "Part number" "74LVC125ABQ,115"
 			(at 259.08 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7431,7 +7431,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "Nexperia"
 			(at 259.08 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -9970,7 +9970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 241.3 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9981,7 +9981,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf"
 			(at 241.3 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10003,7 +10003,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7813"
+		(property "LCSC#" "C282343"
 			(at 241.3 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10014,7 +10014,7 @@
 				)
 			)
 		)
-		(property "Part number" "SN74LVC125APWR"
+		(property "Part number" "74LVC125ABQ,115"
 			(at 241.3 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10025,7 +10025,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "Nexperia"
 			(at 241.3 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10149,7 +10149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 55.88 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -10160,7 +10160,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf"
 			(at 55.88 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -10182,7 +10182,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7813"
+		(property "LCSC#" "C282343"
 			(at 55.88 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -10193,7 +10193,7 @@
 				)
 			)
 		)
-		(property "Part number" "SN74LVC125APWR"
+		(property "Part number" "74LVC125ABQ,115"
 			(at 55.88 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -10204,7 +10204,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "Nexperia"
 			(at 55.88 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -10468,7 +10468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 219.71 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10479,7 +10479,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf"
 			(at 219.71 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10501,7 +10501,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7813"
+		(property "LCSC#" "C282343"
 			(at 219.71 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10512,7 +10512,7 @@
 				)
 			)
 		)
-		(property "Part number" "SN74LVC125APWR"
+		(property "Part number" "74LVC125ABQ,115"
 			(at 219.71 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10523,7 +10523,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "Nexperia"
 			(at 219.71 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11213,7 +11213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 259.08 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11224,7 +11224,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf"
 			(at 259.08 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11246,7 +11246,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7813"
+		(property "LCSC#" "C282343"
 			(at 259.08 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11257,7 +11257,7 @@
 				)
 			)
 		)
-		(property "Part number" "SN74LVC125APWR"
+		(property "Part number" "74LVC125ABQ,115"
 			(at 259.08 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11268,7 +11268,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "Nexperia"
 			(at 259.08 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11674,7 +11674,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 157.48 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11685,7 +11685,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf"
 			(at 157.48 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11707,7 +11707,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7813"
+		(property "LCSC#" "C282343"
 			(at 157.48 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11718,7 +11718,7 @@
 				)
 			)
 		)
-		(property "Part number" "SN74LVC125APWR"
+		(property "Part number" "74LVC125ABQ,115"
 			(at 157.48 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11729,7 +11729,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "Nexperia"
 			(at 157.48 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11851,7 +11851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 157.48 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -11862,7 +11862,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf"
 			(at 157.48 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -11884,7 +11884,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7813"
+		(property "LCSC#" "C282343"
 			(at 157.48 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -11895,7 +11895,7 @@
 				)
 			)
 		)
-		(property "Part number" "SN74LVC125APWR"
+		(property "Part number" "74LVC125ABQ,115"
 			(at 157.48 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -11906,7 +11906,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "Nexperia"
 			(at 157.48 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -12028,7 +12028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 157.48 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -12039,7 +12039,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf"
 			(at 157.48 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -12061,7 +12061,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7813"
+		(property "LCSC#" "C282343"
 			(at 157.48 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -12072,7 +12072,7 @@
 				)
 			)
 		)
-		(property "Part number" "SN74LVC125APWR"
+		(property "Part number" "74LVC125ABQ,115"
 			(at 157.48 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -12083,7 +12083,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "Nexperia"
 			(at 157.48 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -12205,7 +12205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 157.48 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -12216,7 +12216,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf"
 			(at 157.48 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -12238,7 +12238,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7813"
+		(property "LCSC#" "C282343"
 			(at 157.48 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -12249,7 +12249,7 @@
 				)
 			)
 		)
-		(property "Part number" "SN74LVC125APWR"
+		(property "Part number" "74LVC125ABQ,115"
 			(at 157.48 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -12260,7 +12260,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "Nexperia"
 			(at 157.48 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -12384,7 +12384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 162.56 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -12395,7 +12395,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf"
 			(at 162.56 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -12417,7 +12417,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7813"
+		(property "LCSC#" "C282343"
 			(at 162.56 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -12428,7 +12428,7 @@
 				)
 			)
 		)
-		(property "Part number" "SN74LVC125APWR"
+		(property "Part number" "74LVC125ABQ,115"
 			(at 162.56 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -12439,7 +12439,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "Nexperia"
 			(at 162.56 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -13135,7 +13135,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 241.3 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -13146,7 +13146,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf"
 			(at 241.3 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -13168,7 +13168,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7813"
+		(property "LCSC#" "C282343"
 			(at 241.3 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -13179,7 +13179,7 @@
 				)
 			)
 		)
-		(property "Part number" "SN74LVC125APWR"
+		(property "Part number" "74LVC125ABQ,115"
 			(at 241.3 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -13190,7 +13190,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "Nexperia"
 			(at 241.3 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -13314,7 +13314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 91.44 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -13325,7 +13325,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf"
 			(at 91.44 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -13347,7 +13347,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7813"
+		(property "LCSC#" "C282343"
 			(at 91.44 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -13358,7 +13358,7 @@
 				)
 			)
 		)
-		(property "Part number" "SN74LVC125APWR"
+		(property "Part number" "74LVC125ABQ,115"
 			(at 91.44 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -13369,7 +13369,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "Nexperia"
 			(at 91.44 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -14065,7 +14065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 214.63 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -14076,7 +14076,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf"
 			(at 214.63 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -14098,7 +14098,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7813"
+		(property "LCSC#" "C282343"
 			(at 214.63 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -14109,7 +14109,7 @@
 				)
 			)
 		)
-		(property "Part number" "SN74LVC125APWR"
+		(property "Part number" "74LVC125ABQ,115"
 			(at 214.63 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -14120,7 +14120,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "Nexperia"
 			(at 214.63 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -17283,7 +17283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 242.57 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -17294,7 +17294,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf"
 			(at 242.57 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -17316,7 +17316,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7813"
+		(property "LCSC#" "C282343"
 			(at 242.57 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -17327,7 +17327,7 @@
 				)
 			)
 		)
-		(property "Part number" "SN74LVC125APWR"
+		(property "Part number" "74LVC125ABQ,115"
 			(at 242.57 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -17338,7 +17338,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "Nexperia"
 			(at 242.57 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -17746,7 +17746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 276.86 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -17757,7 +17757,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf"
 			(at 276.86 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -17779,7 +17779,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7813"
+		(property "LCSC#" "C282343"
 			(at 276.86 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -17790,7 +17790,7 @@
 				)
 			)
 		)
-		(property "Part number" "SN74LVC125APWR"
+		(property "Part number" "74LVC125ABQ,115"
 			(at 276.86 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -17801,7 +17801,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "Nexperia"
 			(at 276.86 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -18556,7 +18556,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 242.57 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -18567,7 +18567,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf"
 			(at 242.57 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -18589,7 +18589,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7813"
+		(property "LCSC#" "C282343"
 			(at 242.57 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -18600,7 +18600,7 @@
 				)
 			)
 		)
-		(property "Part number" "SN74LVC125APWR"
+		(property "Part number" "74LVC125ABQ,115"
 			(at 242.57 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -18611,7 +18611,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "Nexperia"
 			(at 242.57 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -19474,7 +19474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 127 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -19485,7 +19485,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf"
 			(at 127 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -19507,7 +19507,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7813"
+		(property "LCSC#" "C282343"
 			(at 127 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -19518,7 +19518,7 @@
 				)
 			)
 		)
-		(property "Part number" "SN74LVC125APWR"
+		(property "Part number" "74LVC125ABQ,115"
 			(at 127 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -19529,7 +19529,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "Nexperia"
 			(at 127 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -19650,7 +19650,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 276.86 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -19661,7 +19661,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf"
 			(at 276.86 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -19683,7 +19683,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7813"
+		(property "LCSC#" "C282343"
 			(at 276.86 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -19694,7 +19694,7 @@
 				)
 			)
 		)
-		(property "Part number" "SN74LVC125APWR"
+		(property "Part number" "74LVC125ABQ,115"
 			(at 276.86 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -19705,7 +19705,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "Nexperia"
 			(at 276.86 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -20109,7 +20109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 214.63 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -20120,7 +20120,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf"
 			(at 214.63 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -20142,7 +20142,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7813"
+		(property "LCSC#" "C282343"
 			(at 214.63 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -20153,7 +20153,7 @@
 				)
 			)
 		)
-		(property "Part number" "SN74LVC125APWR"
+		(property "Part number" "74LVC125ABQ,115"
 			(at 214.63 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -20164,7 +20164,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "Nexperia"
 			(at 214.63 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -22796,7 +22796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 219.71 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -22807,7 +22807,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf"
 			(at 219.71 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -22829,7 +22829,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C7813"
+		(property "LCSC#" "C282343"
 			(at 219.71 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -22840,7 +22840,7 @@
 				)
 			)
 		)
-		(property "Part number" "SN74LVC125APWR"
+		(property "Part number" "74LVC125ABQ,115"
 			(at 219.71 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -22851,7 +22851,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "Nexperia"
 			(at 219.71 109.22 0)
 			(hide yes)
 			(show_name no)
