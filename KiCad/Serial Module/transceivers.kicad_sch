@@ -12266,6 +12266,17 @@
 				)
 			)
 		)
+		(property "cost" "3.55"
+			(at 541.02 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "SH"
 			(uuid "27c39151-9cb2-4e69-80b5-13111ca7211f")
 		)
@@ -12880,6 +12891,17 @@
 			)
 		)
 		(property "Part Number" ""
+			(at 541.02 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "cost" "3.55"
 			(at 541.02 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -14315,6 +14337,17 @@
 				)
 			)
 		)
+		(property "cost" "3.55"
+			(at 541.02 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "SH"
 			(uuid "27c39151-9cb2-4e69-80b5-13111ca72121")
 		)
@@ -14952,6 +14985,17 @@
 			)
 		)
 		(property "Part Number" ""
+			(at 541.02 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "cost" "3.55"
 			(at 541.02 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -15647,6 +15691,17 @@
 			)
 		)
 		(property "Part Number" ""
+			(at 541.02 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "cost" "3.55"
 			(at 541.02 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -17057,6 +17112,17 @@
 				)
 			)
 		)
+		(property "cost" "3.55"
+			(at 541.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "SH"
 			(uuid "27c39151-9cb2-4e69-80b5-13111ca72124")
 		)
@@ -17773,6 +17839,17 @@
 			)
 		)
 		(property "Part Number" ""
+			(at 541.02 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "cost" "3.55"
 			(at 541.02 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -18654,6 +18731,17 @@
 			)
 		)
 		(property "Part Number" ""
+			(at 541.02 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "cost" "3.55"
 			(at 541.02 68.58 0)
 			(hide yes)
 			(show_name no)

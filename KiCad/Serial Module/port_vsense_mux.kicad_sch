@@ -2915,6 +2915,17 @@
 				)
 			)
 		)
+		(property "cost" "0.0866"
+			(at 93.98 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "a988bb3a-8f7a-4da1-9155-751d74fc5a7c")
 		)
@@ -3354,6 +3365,17 @@
 			)
 		)
 		(property "Part Number" ""
+			(at 181.61 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "cost" "0.0866"
 			(at 181.61 90.17 0)
 			(hide yes)
 			(show_name no)

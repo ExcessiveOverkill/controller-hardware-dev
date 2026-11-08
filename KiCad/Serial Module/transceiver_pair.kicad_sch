@@ -5301,6 +5301,17 @@
 				)
 			)
 		)
+		(property "cost" "0.2792"
+			(at 163.83 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "52512705-5eb2-4e6f-83f5-9015b6d77bae")
 		)
@@ -6112,6 +6123,17 @@
 				)
 			)
 		)
+		(property "cost" "0.2792"
+			(at 163.83 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "c8ddaef8-5e43-47b7-a014-50dd71f9c5c0")
 		)
@@ -6853,6 +6875,17 @@
 			)
 		)
 		(property "Part Number" ""
+			(at 163.83 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "cost" "0.2792"
 			(at 163.83 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7979,6 +8012,17 @@
 			)
 		)
 		(property "Part Number" ""
+			(at 163.83 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "cost" "0.2792"
 			(at 163.83 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9558,7 +9602,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C172881"
+		(property "LCSC#" "C502564"
 			(at 354.33 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9569,7 +9613,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "MDD(Microdiode Semiconductor)"
 			(at 354.33 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9581,6 +9625,17 @@
 			)
 		)
 		(property "Part Number" ""
+			(at 354.33 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "cost" "0.0689"
 			(at 354.33 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -9975,7 +10030,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C172881"
+		(property "LCSC#" "C502564"
 			(at 354.33 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9986,7 +10041,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Littelfuse"
+		(property "Manufacturer" "MDD(Microdiode Semiconductor)"
 			(at 354.33 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9998,6 +10053,17 @@
 			)
 		)
 		(property "Part Number" ""
+			(at 354.33 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "cost" "0.0689"
 			(at 354.33 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -11782,6 +11848,17 @@
 			)
 		)
 		(property "Part Number" ""
+			(at 53.34 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "cost" "0.2792"
 			(at 53.34 73.66 0)
 			(hide yes)
 			(show_name no)
