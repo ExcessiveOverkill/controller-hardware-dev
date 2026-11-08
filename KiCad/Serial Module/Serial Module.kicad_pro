@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -48,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.5,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -77,6 +95,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
@@ -95,6 +114,7 @@
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
@@ -114,9 +134,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -156,6 +179,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -167,6 +191,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -178,6 +203,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -665,7 +691,20 @@
     "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
+<<<<<<< Updated upstream
     "subpart_id_separator": 0
+=======
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "Serial Module.kicad_sch",
+        "name": "Serial Module",
+        "uuid": "ab8d9c57-0225-4eba-8e69-68104344e230"
+      }
+    ],
+    "used_designators": "#PWR43,#PWR62-65,#PWR71-76,#PWR79-80,#PWR124,#PWR133-143,#PWR145-228,#PWR232-252,#PWR254-270,#PWR277-331,#PWR344-350,#PWR352-358,#PWR396-408,C25-26,C31-32,C68-88,C97-109,C117-131,C141-147,C159-178,D1,D36-49,J4-5,R9,R61-133,R357-384,R405-420,U9-10,U13,U16-17,U24-50,U52-61,U67-73",
+    "variants": []
+>>>>>>> Stashed changes
   },
   "sheets": [
     [
@@ -689,36 +728,49 @@
       "Transceiver pair"
     ],
     [
-      "950d1e8c-1662-40e2-bbb3-67cb0cec2543",
+      "570691ca-8354-4501-af8b-fc0129882773",
+      "FPGA MUX"
+    ],
+    [
+      "45c1de52-223e-4e84-8399-9ffd3c1e64dc",
       "Transceiver pair1"
     ],
     [
+<<<<<<< Updated upstream
       "eec1a144-ca2d-4a7e-8b02-f5293523ad21",
       "Port Power"
     ],
     [
       "70668120-4ba4-4ac8-89a1-a4e30cf2d07f",
+=======
+      "98dad372-708f-464b-be31-9c623a617078",
+>>>>>>> Stashed changes
       "Transceiver pair2"
     ],
     [
-      "83ff2065-a3c0-4bb2-8d49-854250385b56",
+      "5e76ed00-ada5-4afb-837d-9961dfead486",
       "Transceiver pair3"
     ],
     [
-      "72831ab1-aa5d-4723-bd2c-58b29ee75226",
+      "975f802b-af5a-428d-ae89-6e32886b46a8",
       "Transceiver pair4"
     ],
     [
-      "c939c694-9ef6-4009-9acf-ad9123a6ad11",
+      "37a3b7ea-1197-4010-a3a6-7fc4517c3b0c",
       "Transceiver pair5"
     ],
     [
-      "2519c98a-fe16-4bc7-8817-ec4c370d6575",
+      "82b4e719-8d27-425a-a650-404ac159643c",
       "Transceiver pair6"
     ],
     [
+<<<<<<< Updated upstream
       "e5b1d346-544e-4173-829d-4597c68c91d8",
       "Transceiver pair7"
+=======
+      "eec1a144-ca2d-4a7e-8b02-f5293523ad21",
+      "Port Power"
+>>>>>>> Stashed changes
     ],
     [
       "8a4bd22e-14a7-4329-9b48-2ef85fb07f34",
@@ -743,6 +795,10 @@
     [
       "26429f02-bf09-4699-a1a1-969fa4b4373c",
       "Current Limit Mux1"
+    ],
+    [
+      "f6eb59b1-b0af-432b-bc44-f85bb25a19a0",
+      "Transceiver pair7"
     ]
   ],
   "text_variables": {}

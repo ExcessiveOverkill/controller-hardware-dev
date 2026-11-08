@@ -1,6 +1,7 @@
 (sym_lib_table
-  (version 7)
-  (lib (name "HC-RJ45-059D-2x4-2-04")(type "KiCad")(uri "C:/Users/voids/Documents/GitHub/controller-hardware-dev/KiCad/symbols/HC-RJ45-059D-2x4-2-04.kicad_sym")(options "")(descr ""))
-  (lib (name "TPS4HC120")(type "KiCad")(uri "${KIPRJMOD}/TPS4HC120.kicad_sym")(options "")(descr ""))
-  (lib (name "TPS274160B")(type "KiCad")(uri "C:/Users/voids/Documents/GitHub/controller-hardware-dev/KiCad/symbols/TPS274160B .kicad_sym")(options "")(descr ""))
+	(version 7)
+	(lib (name "HC-RJ45-059D-2x4-2-04") (type "KiCad") (uri "C:/Users/voids/Documents/GitHub/controller-hardware-dev/KiCad/symbols/HC-RJ45-059D-2x4-2-04.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS4HC120") (type "KiCad") (uri "${KIPRJMOD}/TPS4HC120.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS274160B") (type "KiCad") (uri "C:/Users/voids/Documents/GitHub/controller-hardware-dev/KiCad/symbols/TPS274160B .kicad_sym") (options "") (descr ""))
+	(lib (name "LCMXO2-640HC-4TG100I") (type "KiCad") (uri "C:/Users/voids/Documents/GitHub/controller-hardware-dev/KiCad/symbols/LCMXO2-640HC-4TG100I.kicad_sym") (options "") (descr ""))
 )

@@ -723,27 +723,37 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Device:LED_AGRB"
 			(pin_names
-				(offset 1.016)
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
+<<<<<<< Updated upstream
 				(at 0 2.54 0)
+=======
+				(at 0 9.398 0)
+				(show_name no)
+				(do_not_autoplace no)
+>>>>>>> Stashed changes
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
+<<<<<<< Updated upstream
 			(property "Value" "LED"
 				(at 0 -2.54 0)
+=======
+			(property "Value" "LED_AGRB"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+>>>>>>> Stashed changes
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -751,7 +761,14 @@
 				)
 			)
 			(property "Footprint" ""
+<<<<<<< Updated upstream
 				(at 0 0 0)
+=======
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+>>>>>>> Stashed changes
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -759,7 +776,22 @@
 					(hide yes)
 				)
 			)
+<<<<<<< Updated upstream
 			(property "Datasheet" "~"
+=======
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "RGB LED, anode/green/red/blue"
+>>>>>>> Stashed changes
 				(at 0 0 0)
 				(effects
 					(font
@@ -768,6 +800,7 @@
 					(hide yes)
 				)
 			)
+<<<<<<< Updated upstream
 			(property "Description" "Light emitting diode"
 				(at 0 0 0)
 				(effects
@@ -778,6 +811,9 @@
 				)
 			)
 			(property "ki_keywords" "LED diode"
+=======
+			(property "ki_keywords" "LED RGB diode"
+>>>>>>> Stashed changes
 				(at 0 0 0)
 				(effects
 					(font
@@ -795,73 +831,369 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+			(symbol "LED_AGRB_0_0"
+				(text "R"
+					(at -1.905 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+				(text "G"
+					(at -1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
+				(text "B"
+					(at -1.905 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
-			(symbol "LED_1_1"
+			(symbol "LED_AGRB_0_1"
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 6.35)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 3.81)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.032 -5.08) (xy 2.032 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.794 8.382)
+					(end -2.794 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LED_AGRB_1_1"
 				(pin passive line
-					(at -3.81 0 0)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "K"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -877,9 +1209,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "A"
+					(name "GK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -887,6 +1219,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "RK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "BK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3322,6 +3690,7 @@
 		(uuid "366dd3c4-0590-4cac-80a6-35762125c5a1")
 	)
 	(junction
+<<<<<<< Updated upstream
 		(at 50.8 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3329,6 +3698,9 @@
 	)
 	(junction
 		(at 53.34 184.15)
+=======
+		(at 68.58 184.15)
+>>>>>>> Stashed changes
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e9456c5-7e84-43d1-acb0-2ac14cefd2d9")
@@ -3601,16 +3973,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 97.79) (xy 153.67 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "206fc042-90f7-42e2-8205-a706e669fbbd")
-	)
-	(wire
-		(pts
 			(xy 69.85 26.67) (xy 81.28 26.67)
 		)
 		(stroke
@@ -3671,6 +4033,29 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
+=======
+			(xy 389.89 87.63) (xy 381 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2be0b9ad-6f82-4f24-8ef7-146c0ba41ebc")
+	)
+	(wire
+		(pts
+			(xy 49.53 57.15) (xy 49.53 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "303fc6f9-08be-453d-9338-e5111cb1ca5b")
+	)
+	(wire
+		(pts
+>>>>>>> Stashed changes
 			(xy 144.78 118.11) (xy 144.78 119.38)
 		)
 		(stroke
@@ -3711,6 +4096,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 60.96) (xy 52.07 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a71c267-2c87-4378-826e-b817edd50c9c")
+	)
+	(wire
+		(pts
 			(xy 60.96 102.87) (xy 52.07 102.87)
 		)
 		(stroke
@@ -3741,16 +4136,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 74.93) (xy 50.8 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f5f635b-2c9c-42da-97f3-4953082e0f6e")
-	)
-	(wire
-		(pts
 			(xy 196.85 120.65) (xy 189.23 120.65)
 		)
 		(stroke
@@ -3778,6 +4163,16 @@
 			(type default)
 		)
 		(uuid "45b909a1-9bc0-48d5-9ac4-63ebc36d4dc8")
+	)
+	(wire
+		(pts
+			(xy 146.05 97.79) (xy 153.67 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476de9df-b736-447f-8118-069ef513be4b")
 	)
 	(wire
 		(pts
@@ -3821,7 +4216,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 71.12) (xy 39.37 71.12)
+			(xy 45.72 66.04) (xy 52.07 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3891,7 +4286,17 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 58.42) (xy 39.37 58.42)
+			(xy 189.23 128.27) (xy 196.85 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f53da39-dc65-4fad-a365-ee819609f705")
+	)
+	(wire
+		(pts
+			(xy 45.72 57.15) (xy 49.53 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3991,13 +4396,21 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 146.05 113.03) (xy 153.67 113.03)
+=======
+			(xy 146.05 90.17) (xy 153.67 90.17)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "7744b06e-a29b-4b12-823a-954dafa2e6c3")
+=======
+		(uuid "72e2f9ee-b087-4d05-8226-82e7824f13e6")
+>>>>>>> Stashed changes
 	)
 	(wire
 		(pts
@@ -4018,16 +4431,6 @@
 			(type default)
 		)
 		(uuid "7b670f7a-2316-4970-a1da-a56d249030e9")
-	)
-	(wire
-		(pts
-			(xy 50.8 58.42) (xy 50.8 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bd1d452-02f2-4f17-909c-810ff31c67c2")
 	)
 	(wire
 		(pts
@@ -4121,13 +4524,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 71.12) (xy 46.99 71.12)
+			(xy 189.23 100.33) (xy 196.85 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98059092-e7b4-4b8a-9bf3-5be5aed1445d")
+		(uuid "9721dcff-0e52-4da0-87ca-88ff69986d6c")
 	)
 	(wire
 		(pts
@@ -4151,6 +4554,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 125.73) (xy 196.85 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b76536-7cc4-4679-8140-91fa81e40f23")
+	)
+	(wire
+		(pts
 			(xy 35.56 34.29) (xy 46.99 34.29)
 		)
 		(stroke
@@ -4161,13 +4574,13 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 39.37) (xy 288.29 40.64)
+			(xy 38.1 74.93) (xy 35.56 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a113a647-16e5-4239-a046-92237673aef5")
+		(uuid "a171fef6-c5c3-439c-a66d-ce36c90380f9")
 	)
 	(wire
 		(pts
@@ -4231,6 +4644,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 95.25) (xy 189.23 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b111f57b-df59-4b56-acbb-ca2dda21082c")
+	)
+	(wire
+		(pts
 			(xy 342.9 100.33) (xy 335.28 100.33)
 		)
 		(stroke
@@ -4261,13 +4684,23 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 71.12) (xy 27.94 71.12)
+			(xy 38.1 66.04) (xy 35.56 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b4101d20-ec2e-4442-9a0b-8d44e1f7cf3e")
+	)
+	(wire
+		(pts
+			(xy 189.23 97.79) (xy 196.85 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a8d14a-c8ea-41b7-b633-c5c0e0540312")
 	)
 	(wire
 		(pts
@@ -4361,6 +4794,26 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 58.42) (xy 68.58 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4139187-bea2-4c40-a7ca-e9e174f6f241")
+	)
+	(wire
+		(pts
+			(xy 189.23 130.81) (xy 196.85 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d533c831-61d0-494c-9236-6e2bff499cbc")
+	)
+	(wire
+		(pts
 			(xy 58.42 26.67) (xy 69.85 26.67)
 		)
 		(stroke
@@ -4411,6 +4864,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 90.17) (xy 189.23 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def54ecb-0e0d-4b2b-b642-c25a4e4bc532")
+	)
+	(wire
+		(pts
 			(xy 135.89 57.15) (xy 135.89 45.72)
 		)
 		(stroke
@@ -4418,6 +4881,26 @@
 			(type default)
 		)
 		(uuid "df1d6ef7-c615-467e-aab9-7591221fd217")
+	)
+	(wire
+		(pts
+			(xy 68.58 66.04) (xy 62.23 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e16e841c-240b-4000-8f34-bfac76a632af")
+	)
+	(wire
+		(pts
+			(xy 45.72 74.93) (xy 49.53 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2686097-5c75-4773-a887-376172c4e201")
 	)
 	(wire
 		(pts
@@ -4501,6 +4984,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 74.93) (xy 49.53 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eea9fc9b-a20c-4966-9c22-56226ab9c642")
+	)
+	(wire
+		(pts
 			(xy 196.85 118.11) (xy 189.23 118.11)
 		)
 		(stroke
@@ -4531,7 +5024,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 58.42) (xy 30.48 58.42)
+			(xy 35.56 57.15) (xy 38.1 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4551,13 +5044,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 58.42) (xy 50.8 58.42)
+			(xy 196.85 82.55) (xy 189.23 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5bad5cf-dc64-4e18-8c67-f820d555f9d2")
+		(uuid "f59d7c12-1bc7-4e38-ae7f-2c09089e7b77")
 	)
 	(wire
 		(pts
@@ -4579,6 +5072,51 @@
 		)
 		(uuid "f8ddf75e-ef11-42fe-ae6f-18b19335a4ca")
 	)
+<<<<<<< Updated upstream
+=======
+	(wire
+		(pts
+			(xy 49.53 71.12) (xy 52.07 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc503179-6822-40ef-910f-1b4ec9362cb8")
+	)
+	(wire
+		(pts
+			(xy 373.38 87.63) (xy 368.3 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc720d10-1ac3-4fdc-9e91-379fdd969156")
+	)
+	(label "CONFIG_CLR_N"
+		(at 146.05 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "006262e0-275a-448b-af9e-3150a2e8ce04")
+		(property "STM32 Perif" "GPIO_OUTPUT"
+			(at 128.524 89.154 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+>>>>>>> Stashed changes
 	(label "PORT_5{slash}6_VSENSE"
 		(at 191.77 182.88 0)
 		(effects
@@ -4709,7 +5247,51 @@
 			)
 		)
 	)
-	(label "LED_0"
+	(label "JTAGENB"
+		(at 196.85 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1446f226-af4f-4611-8900-471cfc8e0452")
+		(property "STM32 Perif" "GPIO_IN/OUT"
+			(at 211.328 99.314 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "SN"
+		(at 196.85 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1480dd35-d9d1-4703-a46d-c312862dac4f")
+		(property "STM32 Perif" "GPIO_OUTPUT"
+			(at 211.328 81.534 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "LED_R"
 		(at 196.85 105.41 0)
 		(effects
 			(font
@@ -4740,6 +5322,28 @@
 		(uuid "1fba9038-8edf-4ddf-8fe2-585c4991d451")
 		(property "STM32 Perif" "ADC1_IN1"
 			(at 226.568 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "FPGA_CLOCK"
+		(at 196.85 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23788c2b-21c9-4b07-957f-46a537a6c2a7")
+		(property "STM32 Perif" "GPIO_IN/OUT"
+			(at 211.328 94.234 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4786,6 +5390,28 @@
 					(italic yes)
 				)
 				(justify right)
+			)
+		)
+	)
+	(label "SN"
+		(at 191.77 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a9e7320-222e-4ab5-9095-0955d9c6eb2d")
+		(property "STM32 Perif" "GPIO_OUTPUT"
+			(at 206.248 194.564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -4859,6 +5485,28 @@
 			)
 		)
 	)
+	(label "SPISO"
+		(at 191.77 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "346c2118-15d0-4de6-96fb-5d6184e82afd")
+		(property "STM32 Perif" "SPI2_MISO"
+			(at 200.66 242.824 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(label "FAULT_N_LV_BANK_2"
 		(at 191.77 233.68 0)
 		(effects
@@ -4879,6 +5527,7 @@
 			)
 		)
 	)
+<<<<<<< Updated upstream
 	(label "CONFIG_CLR_N"
 		(at 146.05 97.79 180)
 		(effects
@@ -4899,8 +5548,10 @@
 			)
 		)
 	)
+=======
+>>>>>>> Stashed changes
 	(label "CONFIG_UPDATE"
-		(at 140.97 228.6 180)
+		(at 140.97 208.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4909,7 +5560,13 @@
 		)
 		(uuid "3776bba7-5426-4075-83fe-1f5980bed385")
 		(property "STM32 Perif" "GPIO_OUTPUT"
+<<<<<<< Updated upstream
 			(at 122.682 227.584 0)
+=======
+			(at 122.682 207.264 0)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,6 +5606,28 @@
 		)
 		(uuid "3e925493-a897-455c-9292-2436a08cf3f5")
 	)
+	(label "PROGRAMN"
+		(at 196.85 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "420e339f-fd7c-4d5e-8516-5bbc900339f7")
+		(property "STM32 Perif" "GPIO_IN/OUT"
+			(at 211.328 89.154 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(label "HV_BANK_2_CURRENT_SENSE"
 		(at 191.77 170.18 0)
 		(effects
@@ -4986,6 +5665,28 @@
 					(italic yes)
 				)
 				(justify right)
+			)
+		)
+	)
+	(label "INITN"
+		(at 191.77 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "518d33ac-0ee0-476f-8433-8b349abdb4e9")
+		(property "STM32 Perif" "GPIO_IN/OUT"
+			(at 206.248 209.804 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5039,6 +5740,28 @@
 			)
 		)
 	)
+	(label "CCLK"
+		(at 196.85 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "637af6a8-4674-49cf-8513-87d18c187a31")
+		(property "STM32 Perif" "SPI2_SCK"
+			(at 205.74 124.714 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(label "SWCLK"
 		(at 373.38 35.56 0)
 		(effects
@@ -5058,6 +5781,28 @@
 			(justify left bottom)
 		)
 		(uuid "72e0eecf-0cbe-440c-a4d2-f261e2205339")
+	)
+	(label "SPISO"
+		(at 196.85 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76509735-faf2-4a31-9e60-f7a0ded46585")
+		(property "STM32 Perif" "SPI2_MISO"
+			(at 205.74 127.254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "BOOT_SEL"
 		(at 120.65 45.72 180)
@@ -5089,6 +5834,28 @@
 		)
 		(uuid "7b3c3d91-296e-427f-a4df-c1eaf3bb8a6e")
 	)
+	(label "SPISI"
+		(at 191.77 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b7a4028-bcd1-48c6-ab81-2015054cb47f")
+		(property "STM32 Perif" "SPI2_MOSI"
+			(at 200.66 245.364 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(label "PORT_5{slash}6_VSENSE"
 		(at 196.85 67.31 0)
 		(effects
@@ -5109,8 +5876,8 @@
 			)
 		)
 	)
-	(label "LED_0"
-		(at 27.94 58.42 180)
+	(label "LED_R"
+		(at 35.56 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5120,7 +5887,7 @@
 		(uuid "88b2ee99-047e-455d-bb19-6d9c8b4bc5bf")
 	)
 	(label "CONFIG_CLR_N"
-		(at 140.97 213.36 180)
+		(at 140.97 205.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5129,13 +5896,41 @@
 		)
 		(uuid "8a312b1d-9340-4bc4-93ad-b8e7eba0d1fc")
 		(property "STM32 Perif" "GPIO_OUTPUT"
+<<<<<<< Updated upstream
 			(at 123.444 212.344 0)
+=======
+			(at 123.444 204.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
 				(justify right)
+			)
+		)
+	)
+	(label "FPGA_CLOCK"
+		(at 191.77 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b1db383-bf0e-43a6-b883-ae6aef31dbec")
+		(property "STM32 Perif" "GPIO_IN/OUT"
+			(at 207.772 207.264 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5189,7 +5984,7 @@
 			)
 		)
 	)
-	(label "LED_1"
+	(label "LED_G"
 		(at 196.85 107.95 0)
 		(effects
 			(font
@@ -5227,6 +6022,28 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(label "PROGRAMN"
+		(at 191.77 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b70abc4-43b3-44da-9fff-f227e1f60b84")
+		(property "STM32 Perif" "GPIO_IN/OUT"
+			(at 206.248 202.184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5321,6 +6138,28 @@
 		(uuid "b19d46c9-8134-4264-b71b-cf93bfb4be73")
 		(property "STM32 Perif" "ADC1_IN5"
 			(at 217.17 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "JTAGENB"
+		(at 191.77 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b267c6ec-f441-41d7-befd-db1766f1814c")
+		(property "STM32 Perif" "GPIO_IN/OUT"
+			(at 206.248 212.344 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5457,6 +6296,28 @@
 					(italic yes)
 				)
 				(justify right)
+			)
+		)
+	)
+	(label "SPISI"
+		(at 196.85 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d549e397-bacc-4dc4-840c-b1f6173a2011")
+		(property "STM32 Perif" "SPI2_MOSI"
+			(at 205.74 129.794 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5611,6 +6472,28 @@
 			)
 		)
 	)
+	(label "INITN"
+		(at 196.85 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4157f8c-3ed5-48e4-b824-36c6273deec7")
+		(property "STM32 Perif" "GPIO_IN/OUT"
+			(at 211.328 96.774 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(label "PORT_1{slash}2_VSENSE"
 		(at 196.85 62.23 0)
 		(effects
@@ -5701,8 +6584,18 @@
 			)
 		)
 	)
-	(label "LED_1"
-		(at 27.94 71.12 180)
+	(label "LED_B"
+		(at 35.56 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4e13f0d-1276-48f5-be8e-d06b73280113")
+	)
+	(label "LED_G"
+		(at 35.56 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5722,6 +6615,50 @@
 		(uuid "f5db4cac-2d80-4a98-af1e-a214fbcafb28")
 		(property "STM32 Perif" "GPIO INPUT"
 			(at 219.964 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "LED_B"
+		(at 146.05 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fca6a63b-dfcc-444f-b42d-25e7cee36fce")
+		(property "STM32 Perif" "TIM3_CH4"
+			(at 137.16 96.774 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(label "CCLK"
+		(at 191.77 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe160f24-897e-4ef2-8baa-3d72ab03c1c5")
+		(property "STM32 Perif" "SPI2_SCK"
+			(at 200.66 240.284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +6699,7 @@
 		)
 	)
 	(hierarchical_label "CONFIG_OE_N"
-		(shape input)
+		(shape output)
 		(at 85.09 227.33 180)
 		(effects
 			(font
@@ -5782,6 +6719,17 @@
 			(justify left)
 		)
 		(uuid "2980c475-a19c-4ee9-b38c-0abb5708e799")
+	)
+	(hierarchical_label "FPGA_CLOCK"
+		(shape output)
+		(at 191.77 208.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29dc5363-1419-426e-8e5a-a748ad482857")
 	)
 	(hierarchical_label "FAULT_N_HV_BANK_2"
 		(shape input)
@@ -5886,6 +6834,17 @@
 			)
 		)
 	)
+	(hierarchical_label "CCLK"
+		(shape output)
+		(at 191.77 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "38df157f-7306-4875-a49e-9b269913d788")
+	)
 	(hierarchical_label "HV_BANK_2_CURRENT_SENSE"
 		(shape input)
 		(at 191.77 170.18 180)
@@ -5908,6 +6867,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "SN"
+		(shape output)
+		(at 191.77 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4abc751a-f4bc-4ec2-9683-17b63dda5db2")
 	)
 	(hierarchical_label "LV_BANK_1_CURRENT_SENSE"
 		(shape input)
@@ -5955,6 +6925,17 @@
 			)
 		)
 	)
+	(hierarchical_label "INITN"
+		(shape bidirectional)
+		(at 191.77 210.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72c12742-aec5-40f8-a38b-5c9480a36083")
+	)
 	(hierarchical_label "LV_BANK_2_CURRENT_SENSE"
 		(shape input)
 		(at 140.97 203.2 0)
@@ -5977,6 +6958,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "SPISI"
+		(shape output)
+		(at 191.77 246.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91b6a411-4e7a-480c-b9cb-1fa0030dc19e")
 	)
 	(hierarchical_label "CONFIG_OE_N"
 		(shape output)
@@ -6003,7 +6995,7 @@
 	)
 	(hierarchical_label "CONFIG_CLR_N"
 		(shape output)
-		(at 140.97 213.36 0)
+		(at 140.97 205.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6013,7 +7005,14 @@
 		)
 		(uuid "9d3cd9e9-dfdd-40f2-9022-d1a8fec90322")
 		(property "STM32 Perif" "GPIO_OUTPUT"
+<<<<<<< Updated upstream
 			(at 140.97 214.63 0)
+=======
+			(at 140.97 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6049,7 +7048,7 @@
 	)
 	(hierarchical_label "CONFIG_UPDATE"
 		(shape output)
-		(at 140.97 228.6 0)
+		(at 140.97 208.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6059,7 +7058,14 @@
 		)
 		(uuid "af430e7f-3c47-47f1-bcf9-8b93b902ecef")
 		(property "STM32 Perif" "GPIO_OUTPUT"
+<<<<<<< Updated upstream
 			(at 140.97 229.87 0)
+=======
+			(at 140.97 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,6 +7098,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "PROGRAMN"
+		(shape bidirectional)
+		(at 191.77 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0c98958-d95e-46f4-8662-4b84a532d284")
 	)
 	(hierarchical_label "PORT_3{slash}4_VSENSE"
 		(shape input)
@@ -6173,6 +7190,17 @@
 			)
 		)
 	)
+	(hierarchical_label "JTAGENB"
+		(shape bidirectional)
+		(at 191.77 213.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d39be6af-93fa-4295-842f-b4598c4ee42e")
+	)
 	(hierarchical_label "CONTROLLER_TX"
 		(shape input)
 		(at 335.28 100.33 180)
@@ -6252,6 +7280,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "SPISO"
+		(shape input)
+		(at 191.77 243.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7db3897-ae74-477e-ab4e-fb55a6e37962")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6374,6 +7413,17 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 365.76 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "d0724396-59a9-4087-bad2-01ebd2c3c3f9")
 		)
@@ -6454,6 +7504,17 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 41.91 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6701,6 +7762,17 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 347.98 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e54bb867-6288-496b-adb2-f21e9fbb6ff6")
 		)
@@ -6726,6 +7798,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "power:GND")
 		(at 50.8 74.93 0)
 		(unit 1)
@@ -6792,6 +7865,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> Stashed changes
 		(lib_id "power:+3.3V")
 		(at 184.15 41.91 0)
 		(unit 1)
@@ -6976,6 +8051,17 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 58.42 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -7180,6 +8266,17 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 35.56 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "66ceaab8-7636-4aca-a748-7ed72702547d")
 		)
@@ -7380,6 +8477,17 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 144.78 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -7695,6 +8803,17 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 34.29 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "307b049c-db6a-4019-81c0-97cb684c2081")
 		)
@@ -7715,16 +8834,21 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 34.29 58.42 90)
+		(at 41.91 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5801a558-b24c-4c45-a7df-ebf3aa452d60")
 		(property "Reference" "R1"
+<<<<<<< Updated upstream
 			(at 34.29 52.07 90)
+=======
+			(at 41.91 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7732,7 +8856,13 @@
 			)
 		)
 		(property "Value" "1k"
+<<<<<<< Updated upstream
 			(at 34.29 54.61 90)
+=======
+			(at 41.91 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7740,7 +8870,14 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+<<<<<<< Updated upstream
 			(at 34.29 60.198 90)
+=======
+			(at 41.91 58.928 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7748,8 +8885,16 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Datasheet" "~"
 			(at 34.29 58.42 0)
+=======
+		(property "Datasheet" ""
+			(at 41.91 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7758,7 +8903,58 @@
 			)
 		)
 		(property "Description" "Resistor"
+<<<<<<< Updated upstream
 			(at 34.29 58.42 0)
+=======
+			(at 41.91 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part number" "RC0603FR-071KL"
+			(at 41.91 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC#" "C22548"
+			(at 41.91 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 41.91 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 41.91 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7914,6 +9110,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "Device:LED")
 		(at 288.29 44.45 90)
 		(unit 1)
@@ -7984,15 +9181,150 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 34.29 71.12 90)
+=======
+		(lib_id "Device:R")
+		(at 38.1 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60cdb9f0-c0df-4ce4-9ff8-0653067a34e2")
+		(property "Reference" "R388"
+			(at 40.64 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 40.64 181.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 36.322 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 38.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 38.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC#" "C98220"
+			(at 38.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 38.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 38.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3e051dc-391d-41a1-bfb5-e6090e805cab")
+		)
+		(pin "2"
+			(uuid "710c38e0-139e-4936-ac88-44c5ea706202")
+		)
+		(instances
+			(project "Serial Module"
+				(path "/ab8d9c57-0225-4eba-8e69-68104344e230/d560378a-ab8a-456e-8aa6-8138f3a40595"
+					(reference "R388")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 41.91 66.04 90)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "63788021-c317-42af-b366-95a4159ebc9d")
 		(property "Reference" "R2"
+<<<<<<< Updated upstream
 			(at 34.29 64.77 90)
+=======
+			(at 41.91 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8000,7 +9332,13 @@
 			)
 		)
 		(property "Value" "1k"
+<<<<<<< Updated upstream
 			(at 34.29 67.31 90)
+=======
+			(at 41.91 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8008,7 +9346,14 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+<<<<<<< Updated upstream
 			(at 34.29 72.898 90)
+=======
+			(at 41.91 67.818 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8016,8 +9361,16 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Datasheet" "~"
 			(at 34.29 71.12 0)
+=======
+		(property "Datasheet" ""
+			(at 41.91 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8026,7 +9379,58 @@
 			)
 		)
 		(property "Description" "Resistor"
+<<<<<<< Updated upstream
 			(at 34.29 71.12 0)
+=======
+			(at 41.91 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part number" "RC0603FR-071KL"
+			(at 41.91 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC#" "C22548"
+			(at 41.91 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 41.91 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 41.91 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8050,6 +9454,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "Device:LED")
 		(at 43.18 58.42 180)
 		(unit 1)
@@ -8186,6 +9591,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> Stashed changes
 		(lib_id "power:GND")
 		(at 363.22 110.49 0)
 		(mirror y)
@@ -8307,6 +9714,17 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 69.85 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c9114719-fd88-4547-b619-c2a866db579f")
 		)
@@ -8323,6 +9741,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "Device:LED")
 		(at 43.18 71.12 180)
 		(unit 1)
@@ -8391,6 +9810,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> Stashed changes
 		(lib_id "power:GND")
 		(at 26.67 184.15 0)
 		(unit 1)
@@ -8553,6 +9974,17 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 368.3 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "4d3d655f-4f35-4206-ac62-b5323107d639")
 		)
@@ -8630,6 +10062,17 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 81.28 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8746,6 +10189,17 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 54.61 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a2b9b8c2-83ad-47b5-9a14-f510614b8230")
 		)
@@ -8815,6 +10269,17 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 171.45 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "31"
@@ -9073,6 +10538,17 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 90.17 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9f33a768-8efe-4d8d-bb1f-e7e341dd716b")
 		)
@@ -9221,6 +10697,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 68.58 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97c0855b-86c8-4501-bf7e-0dc0e8769556")
+		(property "Reference" "#PWR043"
+			(at 68.58 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 68.58 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 68.58 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d15618c7-0e77-4fad-be82-1fa49ddedede")
+		)
+		(instances
+			(project "Serial Module"
+				(path "/ab8d9c57-0225-4eba-8e69-68104344e230/d560378a-ab8a-456e-8aa6-8138f3a40595"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 363.22 77.47 0)
 		(mirror y)
@@ -9288,6 +10842,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "power:GND")
 		(at 288.29 48.26 0)
 		(unit 1)
@@ -9308,52 +10863,166 @@
 		)
 		(property "Value" "GND"
 			(at 288.29 53.34 0)
+=======
+		(lib_id "Device:R")
+		(at 337.82 139.7 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aecbcde3-36ea-43ea-8b29-e3b533cdcc98")
+		(property "Reference" "R386"
+			(at 340.614 141.986 90)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Footprint" ""
 			(at 288.29 48.26 0)
+=======
+		(property "Value" "10k"
+			(at 334.772 141.986 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 337.82 141.478 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+<<<<<<< Updated upstream
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 288.29 48.26 0)
+=======
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< Updated upstream
 				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 288.29 48.26 0)
+=======
+			)
+		)
+		(property "Description" "Resistor"
+			(at 337.82 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 337.82 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC#" "C98220"
+			(at 337.82 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 337.82 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 337.82 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+<<<<<<< Updated upstream
 				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "e4e91e26-1755-41f1-a4c9-f0cb3ea13418")
+=======
+			)
+		)
+		(pin "1"
+			(uuid "dd077e46-5c15-4e0d-8c4e-f65cc2a19d31")
+		)
+		(pin "2"
+			(uuid "16cfd93d-bce7-44f8-a21c-83ada28b35e3")
+>>>>>>> Stashed changes
 		)
 		(instances
 			(project "Serial Module"
 				(path "/ab8d9c57-0225-4eba-8e69-68104344e230/d560378a-ab8a-456e-8aa6-8138f3a40595"
+<<<<<<< Updated upstream
 					(reference "#PWR048")
+=======
+					(reference "R386")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "power:+3.3V")
 		(at 288.29 31.75 0)
 		(unit 1)
@@ -9365,55 +11034,171 @@
 		(uuid "b2628a60-d895-4cee-adcf-a6b5207a34f1")
 		(property "Reference" "#PWR047"
 			(at 288.29 35.56 0)
+=======
+		(lib_id "Device:R")
+		(at 38.1 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b210ee3e-5dae-4842-86a4-3193729be09f")
+		(property "Reference" "R387"
+			(at 40.64 171.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< Updated upstream
 				(hide yes)
 			)
 		)
 		(property "Value" "+3.3V"
 			(at 288.29 26.67 0)
+=======
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 40.64 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< Updated upstream
 			)
 		)
 		(property "Footprint" ""
 			(at 288.29 31.75 0)
+=======
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 36.322 172.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< Updated upstream
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 288.29 31.75 0)
+=======
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< Updated upstream
 				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 288.29 31.75 0)
+=======
+			)
+		)
+		(property "Description" "Resistor"
+			(at 38.1 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 38.1 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC#" "C98220"
+			(at 38.1 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 38.1 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 38.1 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+>>>>>>> Stashed changes
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+<<<<<<< Updated upstream
 				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "2e47319c-8ad9-4ec3-bb5a-7056f7637b3d")
+=======
+			)
+		)
+		(pin "1"
+			(uuid "6e2afd7c-8cf1-46d2-b6df-704b5ac71cb7")
+		)
+		(pin "2"
+			(uuid "a07b9730-a85e-4810-acbf-bcf410d012e1")
+>>>>>>> Stashed changes
 		)
 		(instances
 			(project "Serial Module"
 				(path "/ab8d9c57-0225-4eba-8e69-68104344e230/d560378a-ab8a-456e-8aa6-8138f3a40595"
+<<<<<<< Updated upstream
 					(reference "#PWR047")
+=======
+					(reference "R387")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -9517,6 +11302,17 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 27.94 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9632,6 +11428,17 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 34.29 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9751,6 +11558,17 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 135.89 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dfb56292-bc7d-42e8-b8b8-da1dc7997e41")
 		)
@@ -9819,6 +11637,17 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 41.91 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10001,6 +11830,17 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 361.95 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "71d1cfe2-2cb6-4a22-a25b-e3eaf36ee9d3")
 		)
@@ -10115,6 +11955,17 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 59.69 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0ed59d06-dc4f-4f1a-9dcf-88f8f5e5dee8")
 		)
@@ -10227,6 +12078,17 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 68.58 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "846e68c2-f379-492e-a683-3ea04e877a43")
 		)
@@ -10303,6 +12165,17 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 41.91 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2d3b7194-5503-4388-8543-1ef2c253aaec")
 		)
@@ -10313,6 +12186,125 @@
 			(project "Serial Module"
 				(path "/ab8d9c57-0225-4eba-8e69-68104344e230/d560378a-ab8a-456e-8aa6-8138f3a40595"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_AGRB")
+		(at 57.15 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d32d2269-ea3c-436f-9513-9151b48568eb")
+		(property "Reference" "D1"
+			(at 57.15 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22-23C"
+			(at 57.15 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:22-23C_EVE"
+			(at 57.15 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, anode/green/red/blue"
+			(at 57.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC#" "C181865"
+			(at 57.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "EVERLIGHT"
+			(at 57.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "cost" "0.1534"
+			(at 57.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "0c67d0a3-1ae2-497e-8acf-466f624cd12f")
+		)
+		(pin "3"
+			(uuid "2072597f-b266-4ea9-8e3d-aed568476fa5")
+		)
+		(pin "1"
+			(uuid "2e4eab57-ac37-43fd-ab0e-169fd7567e9f")
+		)
+		(pin "2"
+			(uuid "8f8bc16c-2d3e-4022-9f8b-bdd812d66670")
+		)
+		(instances
+			(project "Serial Module"
+				(path "/ab8d9c57-0225-4eba-8e69-68104344e230/d560378a-ab8a-456e-8aa6-8138f3a40595"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10505,6 +12497,17 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 52.07 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b3c799dc-023a-451b-ba67-94152e848f9d")
 		)
@@ -10582,6 +12585,129 @@
 			(project "Serial Module"
 				(path "/ab8d9c57-0225-4eba-8e69-68104344e230/d560378a-ab8a-456e-8aa6-8138f3a40595"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 41.91 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e0a5f1cf-ac49-4fb4-9e39-d51c2f0ccdc6")
+		(property "Reference" "R9"
+			(at 41.91 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 41.91 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 41.91 76.708 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part number" "RC0603FR-071KL"
+			(at 41.91 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC#" "C22548"
+			(at 41.91 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 41.91 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 41.91 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5617bee-29b8-4841-8595-7aa58e37d325")
+		)
+		(pin "2"
+			(uuid "b2566434-134d-4a3e-a682-b61e7d800c5a")
+		)
+		(instances
+			(project "Serial Module"
+				(path "/ab8d9c57-0225-4eba-8e69-68104344e230/d560378a-ab8a-456e-8aa6-8138f3a40595"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10685,6 +12811,17 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 123.19 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10823,6 +12960,17 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 52.07 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e31f6537-f512-44b8-8716-755c8cc1dfd8")
 		)
@@ -10959,6 +13107,17 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 41.91 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f4664ad3-3244-4a31-9aad-d41565ab2923")
 		)
@@ -10975,6 +13134,132 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
+=======
+		(lib_id "Device:R")
+		(at 377.19 87.63 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f62e82ea-0e81-4bca-8e2a-23628fe57a2b")
+		(property "Reference" "R385"
+			(at 374.396 89.916 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 380.238 89.916 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 377.19 89.408 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 377.19 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part number" "RC0603FR-0710KL"
+			(at 377.19 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC#" "C98220"
+			(at 377.19 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 377.19 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 377.19 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d155c72-a70d-4e14-a623-ab3c521ea44e")
+		)
+		(pin "2"
+			(uuid "29d39a30-4c20-4ced-86db-8b1df4da1b1c")
+		)
+		(instances
+			(project "Serial Module"
+				(path "/ab8d9c57-0225-4eba-8e69-68104344e230/d560378a-ab8a-456e-8aa6-8138f3a40595"
+					(reference "R385")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+>>>>>>> Stashed changes
 		(lib_id "Device:C")
 		(at 21.59 30.48 0)
 		(unit 1)
@@ -11027,6 +13312,17 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 21.59 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11141,6 +13437,17 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 27.94 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f2574c52-7e2d-40b4-8742-a200c39669c4")
 		)
@@ -11209,6 +13516,17 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 46.99 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
