@@ -6,7 +6,7 @@
 	(descr "terminal block RND 205-00001, 2 pins, pitch 5mm, size 10x9mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00001_DB_EN.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_RND")
 	(tags "THT terminal block RND 205-00001 pitch 5mm size 10x9mm^2 drill 1.3mm pad 2.5mm")
 	(property "Reference" "J5"
-		(at 5.5 -5.9 0)
+		(at 5.25 -5.9 0)
 		(layer "F.SilkS")
 		(uuid "a5dc0a3d-5d64-4c44-a9e3-72a9c1aa0f18")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Conn_02x02_Pin"
-		(at 5.5 -8.128 0)
+		(at 5.25 -8.128 0)
 		(layer "F.Fab")
 		(uuid "61339f8b-1f9b-40b3-8b33-d6a21dd47cf8")
 		(effects
@@ -56,7 +56,7 @@
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
-		(start 13.5 1.278)
+		(start 12.65 1.278)
 		(end -2.102 -10.6)
 		(stroke
 			(width 0.1)
@@ -67,8 +67,8 @@
 		(uuid "c0df9e00-fb67-4ea0-8d05-ab134b2ffd66")
 	)
 	(fp_rect
-		(start 13.5 1.232)
-		(end -2.056 -10.6)
+		(start 12.9 1.5)
+		(end -2.35 -10.85)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -98,7 +98,7 @@
 		(uuid "bc307d65-20e7-4cfd-90d8-9965bdb4968d")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 5.214 -11.5 0)
+		(at 5.25 -11.5 0)
 		(layer "F.Fab")
 		(uuid "0b1df96c-8691-4457-941d-0caa2bb5b491")
 		(effects
@@ -141,7 +141,7 @@
 		(uuid "c24f2519-0acb-4d6f-8fa6-70b4658d0908")
 	)
 	(pad "5" thru_hole circle
-		(at 7.5 0)
+		(at 7 0)
 		(size 2.2 2.2)
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
@@ -149,7 +149,7 @@
 		(uuid "275f601f-3b38-4c02-9402-bc16f5daeee2")
 	)
 	(pad "6" thru_hole circle
-		(at 7.5 -2.5)
+		(at 7 -2.5)
 		(size 2.2 2.2)
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
@@ -157,7 +157,7 @@
 		(uuid "91ca7126-575c-411d-a25b-1bb979cb5b3f")
 	)
 	(pad "7" thru_hole circle
-		(at 11.5 0)
+		(at 10.5 0)
 		(size 2.2 2.2)
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
@@ -165,7 +165,7 @@
 		(uuid "372b0614-7625-407c-a7ce-3188490a235b")
 	)
 	(pad "8" thru_hole circle
-		(at 11.5 -2.5)
+		(at 10.5 -2.5)
 		(size 2.2 2.2)
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
@@ -173,7 +173,7 @@
 		(uuid "3b71cc26-0463-4cd0-95f2-053b650f479c")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal.wrl"
+	(model "${KIPRJMOD}/../3dmodels/TerminalBlock_Kefa_KF2EDGSR-3.5-2x4P.step"
 		(offset
 			(xyz 0 0 0)
 		)

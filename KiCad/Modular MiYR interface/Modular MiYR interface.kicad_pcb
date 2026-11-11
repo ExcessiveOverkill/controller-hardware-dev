@@ -8954,7 +8954,7 @@
 			(uuid "9a96a52e-f70d-4a37-a502-4a81c2b1ee87")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/voids/Documents/GitHub/controller-hardware-dev/Inventor/components/FPC-05FB-50PH20.stp"
+		(model "${KIPRJMOD}/../../Inventor/components/FPC-05FB-50PH20.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18591,7 +18591,7 @@
 			(uuid "928f4c6b-7bc5-4175-9488-8b131c9fce70")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/voids/Documents/GitHub/controller-hardware-dev/Inventor/components/FPC-05FB-50PH20.stp"
+		(model "${KIPRJMOD}/../../Inventor/components/FPC-05FB-50PH20.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25130,7 +25130,7 @@
 			(uuid "0cce46d8-6c8e-41a7-8c80-1e112baa45e6")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/voids/Documents/GitHub/controller-hardware-dev/Inventor/components/FPC-05FB-50PH20.stp"
+		(model "${KIPRJMOD}/../../Inventor/components/FPC-05FB-50PH20.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28412,7 +28412,7 @@
 			(uuid "9e1dbcd3-e868-41ca-8f15-40df910441d1")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/voids/Documents/GitHub/controller-hardware-dev/Inventor/components/FPC-05FB-50PH20.stp"
+		(model "${KIPRJMOD}/../../Inventor/components/FPC-05FB-50PH20.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34330,7 +34330,7 @@
 			(uuid "6ea88873-feeb-4306-a3ee-693b893bfdc0")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/voids/Documents/GitHub/controller-hardware-dev/Inventor/components/FPC-05FB-50PH20.stp"
+		(model "${KIPRJMOD}/../../Inventor/components/FPC-05FB-50PH20.stp"
 			(offset
 				(xyz 0 0 0)
 			)

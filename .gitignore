@@ -29,3 +29,14 @@ KiCad/Modular MiYR interface/fp-info-cache
 KiCad/Serial Module/TPS4HC120.bak
 KiCad/symbols/HC-RJ45-059D-2x4-2-04.bak
 KiCad/symbols/TPS274160B .bak
+
+# Serial Module: local reference datasheets, scripts and agent notes
+KiCad/Serial Module/references/
+KiCad/**/*.py
+KiCad/**/*.cpp
+KiCad/**/__pycache__/
+KiCad/Serial Module/.history/
+KiCad/Serial Module/*.before-*.kicad_pcb
+KiCad/Serial Module/*.user-*.kicad_pcb
+KiCad/Serial Module/SCHEMATIC_REVIEW_*.md
+KiCad/Serial Module/LAYOUT_HANDOFF.md

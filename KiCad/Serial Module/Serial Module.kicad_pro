@@ -83,7 +83,7 @@
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
-        "connection_width": "warning",
+        "connection_width": "error",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
@@ -147,11 +147,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_clearance": 0.1,
+        "min_connection": 0.09,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -159,10 +159,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -522,10 +522,10 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.16,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.16,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -533,10 +533,162 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.16,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.16,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.16,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Bank_Input",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.55,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.16,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.16,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Bank_Output",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.43,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.16,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.16,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Buck_Switch",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.42,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.16,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.16,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Port_Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.65,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.16,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.16,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power_24V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.85,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.16,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.16,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power_3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.16,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.16,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power_5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.45,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.16,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.16,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "RS485",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.18,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
@@ -545,7 +697,132 @@
     },
     "net_colors": {},
     "netclass_assignments": {},
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power_24V",
+        "pattern": "+24V"
+      },
+      {
+        "netclass": "Power_24V",
+        "pattern": "+AUX_VH_PORT_BANK_*"
+      },
+      {
+        "netclass": "Power_5V",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power_5V",
+        "pattern": "+5V_LOGIC"
+      },
+      {
+        "netclass": "Power_3V3",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "Port_Power",
+        "pattern": "+5V_PORT"
+      },
+      {
+        "netclass": "Port_Power",
+        "pattern": "+AUX_VL_PORT_BANK_*"
+      },
+      {
+        "netclass": "Port_Power",
+        "pattern": "/Transceivers/PORT_?+"
+      },
+      {
+        "netclass": "Buck_Switch",
+        "pattern": "Net-(U65-SW)"
+      },
+      {
+        "netclass": "Buck_Switch",
+        "pattern": "Net-(U82-SW)"
+      },
+      {
+        "netclass": "Bank_Output",
+        "pattern": "Net-(D8-A)"
+      },
+      {
+        "netclass": "Bank_Output",
+        "pattern": "Net-(D9-A)"
+      },
+      {
+        "netclass": "Bank_Output",
+        "pattern": "Net-(D10-A)"
+      },
+      {
+        "netclass": "Bank_Output",
+        "pattern": "Net-(D11-A)"
+      },
+      {
+        "netclass": "Bank_Output",
+        "pattern": "Net-(D13-A)"
+      },
+      {
+        "netclass": "Bank_Output",
+        "pattern": "Net-(D15-A)"
+      },
+      {
+        "netclass": "Bank_Output",
+        "pattern": "Net-(D16-A)"
+      },
+      {
+        "netclass": "Bank_Output",
+        "pattern": "Net-(D17-A)"
+      },
+      {
+        "netclass": "Bank_Output",
+        "pattern": "Net-(D18-A)"
+      },
+      {
+        "netclass": "Bank_Output",
+        "pattern": "Net-(D19-A)"
+      },
+      {
+        "netclass": "Bank_Output",
+        "pattern": "Net-(D22-A)"
+      },
+      {
+        "netclass": "Bank_Output",
+        "pattern": "Net-(D23-A)"
+      },
+      {
+        "netclass": "Bank_Output",
+        "pattern": "Net-(D24-A)"
+      },
+      {
+        "netclass": "Bank_Output",
+        "pattern": "Net-(D25-A)"
+      },
+      {
+        "netclass": "Bank_Output",
+        "pattern": "Net-(D26-A)"
+      },
+      {
+        "netclass": "Bank_Output",
+        "pattern": "Net-(D27-A)"
+      },
+      {
+        "netclass": "Bank_Input",
+        "pattern": "Net-(D12-K)"
+      },
+      {
+        "netclass": "Bank_Input",
+        "pattern": "Net-(D14-K)"
+      },
+      {
+        "netclass": "Bank_Input",
+        "pattern": "Net-(D20-K)"
+      },
+      {
+        "netclass": "Bank_Input",
+        "pattern": "Net-(D21-K)"
+      },
+      {
+        "netclass": "RS485",
+        "pattern": "/Transceivers/PORT_*_DATA_*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -723,7 +1000,7 @@
         "uuid": "ab8d9c57-0225-4eba-8e69-68104344e230"
       }
     ],
-    "used_designators": "#PWR43,#PWR62-65,#PWR71-76,#PWR79-80,#PWR124,#PWR133-143,#PWR145-228,#PWR232-252,#PWR254-270,#PWR277-331,#PWR344-350,#PWR352-358,#PWR396-408,C25-26,C31-32,C68-88,C97-109,C117-131,C141-147,C159-178,D1,D36-49,J4-5,R9,R61-133,R357-384,R405-420,U9-10,U13,U16-17,U24-50,U52-61,U67-73",
+    "used_designators": "#PWR43,#PWR62-65,#PWR71-76,#PWR79-80,#PWR124,#PWR133-143,#PWR145-228,#PWR232-252,#PWR254-270,#PWR277-331,#PWR344-350,#PWR352-358,#PWR396-409,C25-26,C31-32,C68-88,C97-109,C117-131,C141-147,C159-178,D1,D36-49,J4-5,R9,R61-133,R357-384,R405-420,U9-10,U13,U16-17,U24-50,U52-61,U67-73",
     "variants": []
   },
   "sheets": [
@@ -744,12 +1021,12 @@
       "Transceivers"
     ],
     [
-      "f3c74456-cf6e-423e-b038-298a9ae8042e",
-      "Transceiver pair"
-    ],
-    [
       "570691ca-8354-4501-af8b-fc0129882773",
       "FPGA MUX"
+    ],
+    [
+      "f3c74456-cf6e-423e-b038-298a9ae8042e",
+      "Transceiver pair"
     ],
     [
       "45c1de52-223e-4e84-8399-9ffd3c1e64dc",

@@ -1096,7 +1096,7 @@
 			)
 		)
 	)
-	(model "C:/Users/voids/Documents/GitHub/controller-hardware-dev/Inventor/components/BB0500220F-1002C-001.stp"
+	(model "${KIPRJMOD}/../../Inventor/components/BB0500220F-1002C-001.stp"
 		(offset
 			(xyz 13.85 0 0)
 		)
