@@ -40,3 +40,11 @@ KiCad/Serial Module/*.before-*.kicad_pcb
 KiCad/Serial Module/*.user-*.kicad_pcb
 KiCad/Serial Module/SCHEMATIC_REVIEW_*.md
 KiCad/Serial Module/LAYOUT_HANDOFF.md
+
+# Local agent instructions and PR working notes
+.agents/
+.codex/
+.claude/
+AGENTS.md
+CLAUDE.md
+[Pp][Rr]_[Dd][Ee][Ss][Cc][Rr][Ii][Pp][Tt][Ii][Oo][Nn].md
