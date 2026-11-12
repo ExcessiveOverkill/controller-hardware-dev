@@ -2376,5 +2376,30 @@
 		(thermal_bridge_angle 90)
 		(uuid "28db1a44-eb1e-48bd-acf5-9a9c85028a60")
 	)
+	(pad "" np_thru_hole circle
+		(at -20.955 6.805)
+		(size 3.25 3.25)
+		(drill 3.25)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d4d08d90-2a2f-49e0-a388-5af36df118ae")
+	)
+	(pad "" np_thru_hole circle
+		(at 20.955 6.805)
+		(size 3.25 3.25)
+		(drill 3.25)
+		(layers "*.Cu" "*.Mask")
+		(uuid "7c0bd7ec-f049-478b-9424-788ac5d6bc49")
+	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/../3dmodels/RJ45_HCTL_HC-RJ45-059D-2x4-2-04.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

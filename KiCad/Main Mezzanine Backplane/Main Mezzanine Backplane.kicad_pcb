@@ -974,7 +974,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(uuid "0a92f178-93a8-4244-8dbc-1350d2cbc2cc")
 		)
-		(model "C:/Users/voids/Documents/GitHub/controller-hardware-dev/Inventor/components/FPC-05FB-50PH20.stp"
+		(model "${KIPRJMOD}/../../Inventor/components/FPC-05FB-50PH20.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2143,7 +2143,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(uuid "7aaded8f-0817-4ba4-b78d-7f3589f13845")
 		)
-		(model "C:/Users/voids/Documents/GitHub/controller-hardware-dev/Inventor/components/FPC-05FB-50PH20.stp"
+		(model "${KIPRJMOD}/../../Inventor/components/FPC-05FB-50PH20.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2992,7 +2992,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(uuid "85ecf80d-94a8-4588-a4a0-a57fba436ff0")
 		)
-		(model "C:/Users/voids/Documents/GitHub/controller-hardware-dev/Inventor/components/FPC-05FB-50PH20.stp"
+		(model "${KIPRJMOD}/../../Inventor/components/FPC-05FB-50PH20.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4174,7 +4174,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(uuid "22f5e10b-f07f-4555-b444-557135df4eb9")
 		)
-		(model "C:/Users/voids/Documents/GitHub/controller-hardware-dev/Inventor/components/FPC-05FB-50PH20.stp"
+		(model "${KIPRJMOD}/../../Inventor/components/FPC-05FB-50PH20.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4891,7 +4891,7 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(uuid "ac4746d4-3046-4946-aa1c-496bd4f37df9")
 		)
-		(model "C:/Users/voids/Documents/GitHub/controller-hardware-dev/Inventor/components/FPC-05FB-50PH20.stp"
+		(model "${KIPRJMOD}/../../Inventor/components/FPC-05FB-50PH20.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8520,7 +8520,7 @@
 				)
 			)
 		)
-		(model "C:/Users/voids/Documents/GitHub/controller-hardware-dev/Inventor/components/BB0500220F-1002C-001.stp"
+		(model "${KIPRJMOD}/../../Inventor/components/BB0500220F-1002C-001.stp"
 			(offset
 				(xyz 13.85 0 0)
 			)
@@ -13262,7 +13262,7 @@
 				)
 			)
 		)
-		(model "C:/Users/voids/Documents/GitHub/controller-hardware-dev/Inventor/components/BB0500220F-1002C-001.stp"
+		(model "${KIPRJMOD}/../../Inventor/components/BB0500220F-1002C-001.stp"
 			(offset
 				(xyz 13.85 0 0)
 			)

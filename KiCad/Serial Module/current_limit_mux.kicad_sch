@@ -1867,7 +1867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 214.122 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -1900,7 +1900,7 @@
 				)
 			)
 		)
-		(property "Part number" "RC0603FR-072KL"
+		(property "Part number" "RC0402FR-072KL"
 			(at 215.9 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -1911,7 +1911,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C105576"
+		(property "LCSC#" "C60488"
 			(at 215.9 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -1923,17 +1923,6 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 215.9 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
 			(at 215.9 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -1986,7 +1975,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS596"
+		(property "Value" "74HCS596"
 			(at 61.8333 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2030,7 +2019,7 @@
 				)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part number" "SN74HCS596QPWRQ1"
 			(at 59.69 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2041,7 +2030,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C2871501"
+		(property "LCSC#" "C2862662"
 			(at 59.69 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2251,7 +2240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 239.522 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -2284,7 +2273,7 @@
 				)
 			)
 		)
-		(property "Part number" "RC0603FR-071KL"
+		(property "Part number" "RC0402FR-071KL"
 			(at 241.3 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2295,7 +2284,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C22548"
+		(property "LCSC#" "C106235"
 			(at 241.3 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2307,17 +2296,6 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 241.3 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
 			(at 241.3 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2381,7 +2359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 140.462 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -2414,7 +2392,7 @@
 				)
 			)
 		)
-		(property "Part number" "RC0603FR-078K06L"
+		(property "Part number" "RC0402FR-078K06L"
 			(at 142.24 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2425,7 +2403,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C131052"
+		(property "LCSC#" "C276278"
 			(at 142.24 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2437,17 +2415,6 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 142.24 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
 			(at 142.24 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2511,7 +2478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 214.122 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -2544,7 +2511,7 @@
 				)
 			)
 		)
-		(property "Part number" "RC0603FR-072KL"
+		(property "Part number" "RC0402FR-072KL"
 			(at 215.9 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2555,7 +2522,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C105576"
+		(property "LCSC#" "C60488"
 			(at 215.9 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2567,17 +2534,6 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 215.9 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
 			(at 215.9 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2641,7 +2597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 163.322 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -2674,7 +2630,7 @@
 				)
 			)
 		)
-		(property "Part number" "RC0603FR-078K06L"
+		(property "Part number" "RC0402FR-078K06L"
 			(at 165.1 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2685,7 +2641,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C131052"
+		(property "LCSC#" "C276278"
 			(at 165.1 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2697,17 +2653,6 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 165.1 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
 			(at 165.1 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2853,7 +2798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 163.322 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -2886,7 +2831,7 @@
 				)
 			)
 		)
-		(property "Part number" "RC0603FR-078K06L"
+		(property "Part number" "RC0402FR-078K06L"
 			(at 165.1 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2897,7 +2842,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C131052"
+		(property "LCSC#" "C276278"
 			(at 165.1 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2909,17 +2854,6 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 165.1 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
 			(at 165.1 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3147,7 +3081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 188.722 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -3180,7 +3114,7 @@
 				)
 			)
 		)
-		(property "Part number" "AC0603FR-074K02L"
+		(property "Part number" "RC0402FR-074K02L"
 			(at 190.5 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -3191,7 +3125,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C227925"
+		(property "LCSC#" "C137968"
 			(at 190.5 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -3203,17 +3137,6 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 190.5 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
 			(at 190.5 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -3277,7 +3200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 140.462 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -3310,7 +3233,7 @@
 				)
 			)
 		)
-		(property "Part number" "RC0603FR-078K06L"
+		(property "Part number" "RC0402FR-078K06L"
 			(at 142.24 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3321,7 +3244,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C131052"
+		(property "LCSC#" "C276278"
 			(at 142.24 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3333,17 +3256,6 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 142.24 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
 			(at 142.24 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3407,7 +3319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 188.722 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -3440,7 +3352,7 @@
 				)
 			)
 		)
-		(property "Part number" "AC0603FR-074K02L"
+		(property "Part number" "RC0402FR-074K02L"
 			(at 190.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3451,7 +3363,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C227925"
+		(property "LCSC#" "C137968"
 			(at 190.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3463,17 +3375,6 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 190.5 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
 			(at 190.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3537,7 +3438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 239.522 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -3570,7 +3471,7 @@
 				)
 			)
 		)
-		(property "Part number" "RC0603FR-071KL"
+		(property "Part number" "RC0402FR-071KL"
 			(at 241.3 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3581,7 +3482,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C22548"
+		(property "LCSC#" "C106235"
 			(at 241.3 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3593,17 +3494,6 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 241.3 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
 			(at 241.3 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3749,7 +3639,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 50.4952 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3782,7 +3672,7 @@
 				)
 			)
 		)
-		(property "Part number" "CC0603KRX7R9BB104"
+		(property "Part number" "CC0402KRX7R9BB104"
 			(at 49.53 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3793,7 +3683,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C14663"
+		(property "LCSC#" "C131394"
 			(at 49.53 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3805,17 +3695,6 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 49.53 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
 			(at 49.53 78.74 0)
 			(hide yes)
 			(show_name no)

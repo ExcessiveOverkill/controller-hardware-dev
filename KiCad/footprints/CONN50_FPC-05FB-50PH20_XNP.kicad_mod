@@ -551,7 +551,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "8484e14e-b5bd-46c9-8b54-400834bf83d2")
 	)
-	(model "C:/Users/voids/Documents/GitHub/controller-hardware-dev/Inventor/components/FPC-05FB-50PH20.stp"
+	(model "${KIPRJMOD}/../../Inventor/components/FPC-05FB-50PH20.stp"
 		(offset
 			(xyz 0 0 0)
 		)
