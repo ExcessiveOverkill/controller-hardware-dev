@@ -43,11 +43,11 @@
           "height": 1.524,
           "width": 1.524
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.15,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
           "border_display_style": 2,
@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.15,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.15,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.25,
+          "thermal_relief_spoke_width": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -149,20 +149,20 @@
         "max_error": 0.005,
         "min_clearance": 0.1,
         "min_connection": 0.09,
-        "min_copper_edge_clearance": 0.2,
+        "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.28,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.45,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -253,6 +253,10 @@
         {
           "diameter": 0.5,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -535,7 +539,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.16,
         "tuning_profile": "",
-        "via_diameter": 0.45,
+        "via_diameter": 0.5,
         "via_drill": 0.2,
         "wire_width": 6
       },
@@ -554,7 +558,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.55,
         "tuning_profile": "",
-        "via_diameter": 0.45,
+        "via_diameter": 0.5,
         "via_drill": 0.2,
         "wire_width": 6
       },
@@ -573,7 +577,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.43,
         "tuning_profile": "",
-        "via_diameter": 0.45,
+        "via_diameter": 0.5,
         "via_drill": 0.2,
         "wire_width": 6
       },
@@ -592,7 +596,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.42,
         "tuning_profile": "",
-        "via_diameter": 0.45,
+        "via_diameter": 0.5,
         "via_drill": 0.2,
         "wire_width": 6
       },
@@ -611,7 +615,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.65,
         "tuning_profile": "",
-        "via_diameter": 0.45,
+        "via_diameter": 0.5,
         "via_drill": 0.2,
         "wire_width": 6
       },
@@ -630,7 +634,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.85,
         "tuning_profile": "",
-        "via_diameter": 0.45,
+        "via_diameter": 0.5,
         "via_drill": 0.2,
         "wire_width": 6
       },
@@ -649,7 +653,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": "",
-        "via_diameter": 0.45,
+        "via_diameter": 0.5,
         "via_drill": 0.2,
         "wire_width": 6
       },
@@ -668,7 +672,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.45,
         "tuning_profile": "",
-        "via_diameter": 0.45,
+        "via_diameter": 0.5,
         "via_drill": 0.2,
         "wire_width": 6
       },
@@ -687,7 +691,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.18,
         "tuning_profile": "",
-        "via_diameter": 0.45,
+        "via_diameter": 0.5,
         "via_drill": 0.2,
         "wire_width": 6
       }
@@ -1053,6 +1057,10 @@
       "Transceiver pair6"
     ],
     [
+      "f6eb59b1-b0af-432b-bc44-f85bb25a19a0",
+      "Transceiver pair7"
+    ],
+    [
       "eec1a144-ca2d-4a7e-8b02-f5293523ad21",
       "Port Power"
     ],
@@ -1069,10 +1077,6 @@
       "Port Vsense Mux2"
     ],
     [
-      "0bce6c50-7f09-4411-85be-475778d38cf0",
-      "Port Vsense Mux3"
-    ],
-    [
       "3bded2bf-0e84-4a30-98e6-b436a91467ee",
       "Current Limit Mux"
     ],
@@ -1081,8 +1085,8 @@
       "Current Limit Mux1"
     ],
     [
-      "f6eb59b1-b0af-432b-bc44-f85bb25a19a0",
-      "Transceiver pair7"
+      "0bce6c50-7f09-4411-85be-475778d38cf0",
+      "Port Vsense Mux3"
     ]
   ],
   "text_variables": {},

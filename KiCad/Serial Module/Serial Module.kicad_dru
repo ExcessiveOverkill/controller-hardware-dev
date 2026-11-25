@@ -1,40 +1,52 @@
 (version 1)
-# JLCPCB standard (no extra cost) capabilities, 6-layer 1.6 mm, 1 oz outer / nominal 0.5 oz inner.
-# Board Setup holds the global minimums; these rules cover what it cannot express.
+# PCBWay "Standard PCB" capabilities, 4-layer 1.6 mm FR-4, 1 oz outer / 1 oz inner (no extra charge).
+# Source: https://www.pcbway.com/capabilities.html (checked 2026-11-17).
+# Board Setup holds the global minimums (0.1 mm track/space, 0.2 mm drill, 0.5 mm via, 0.15 mm via ring,
+# 0.25 mm copper-to-edge, 0.28 mm hole-to-hole); these rules cover what Board Setup cannot express.
 
-(rule "JLC via: 0.2 mm drill needs >= 0.45 mm pad"
+(rule "PCBWay via: 0.2 mm drill, >= 0.5 mm pad (0.15 mm annular ring)"
 	(condition "A.Type == 'Via'")
 	(constraint hole_size (min 0.2mm))
-	(constraint via_diameter (min 0.45mm)))
+	(constraint via_diameter (min 0.5mm))
+	(constraint annular_width (min 0.15mm)))
 
-(rule "JLC PTH annular ring >= 0.15 mm"
+(rule "PCBWay PTH annular ring >= 0.15 mm"
 	(condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole'")
 	(constraint annular_width (min 0.15mm)))
 
-(rule "JLC NPTH >= 0.5 mm"
+(rule "PCBWay drill >= 0.2 mm (smaller costs extra)"
+	(constraint hole_size (min 0.2mm)))
+
+(rule "PCBWay NPTH >= 0.5 mm"
 	(condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical'")
 	(constraint hole_size (min 0.5mm)))
 
-(rule "JLC PTH hole to copper >= 0.28 mm"
-	(condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole'")
-	(constraint hole_clearance (min 0.28mm)))
+(rule "PCBWay hole to hole >= 0.28 mm (11 mil)"
+	(constraint hole_to_hole (min 0.28mm)))
 
-(rule "JLC pad hole to hole >= 0.45 mm"
-	(condition "A.Type == 'Pad' && B.Type == 'Pad' && A.isPlated() && B.isPlated()")
-	(constraint hole_to_hole (min 0.45mm)))
+(rule "PCBWay hole to copper >= 0.2 mm (inner isolation 7 mil + margin)"
+	(constraint hole_clearance (min 0.2mm)))
 
-(rule "JLC SMD pad to pad >= 0.15 mm (different nets)"
+(rule "PCBWay copper to routed edge >= 0.25 mm"
+	(constraint edge_clearance (min 0.25mm)))
+
+# J3 (RJ45, locked) carries its own front-panel Edge.Cuts outline; its shield/LED copper sits 0.205 mm from it.
+# PCBWay "medium" process allows 0.20 mm, so this one footprint gets that limit.
+(rule "J3 own outline: copper to edge >= 0.20 mm"
+	(condition "A.memberOfFootprint('J3') || B.memberOfFootprint('J3')")
+	(constraint edge_clearance (min 0.2mm)))
+
+(rule "PCBWay SMD pad to pad >= 0.15 mm (different nets, mask bridge)"
 	(condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Pad_Type == 'SMD' && B.Pad_Type == 'SMD' && A.Net != B.Net")
 	(constraint clearance (min 0.15mm)))
 
-(rule "JLC silkscreen to pad >= 0.15 mm"
+(rule "PCBWay silkscreen text: 0.15 mm stroke, 0.8 mm height"
+	(layer "?.Silkscreen")
+	(constraint text_thickness (min 0.15mm))
+	(constraint text_height (min 0.8mm)))
+
+(rule "PCBWay silkscreen to pad >= 0.15 mm"
 	(layer "?.Silkscreen")
 	(constraint silk_clearance (min 0.15mm)))
 
-(rule "In1.Cu reserved for ground copper fill"
-	(layer "In1.Cu")
-	(constraint disallow track))
-
-(rule "In4.Cu reserved for power copper fills"
-	(layer "In4.Cu")
-	(constraint disallow track))
+# In1.Cu is mainly the ground plane and In2.Cu mainly the DC rails; short local routing is allowed on both.
